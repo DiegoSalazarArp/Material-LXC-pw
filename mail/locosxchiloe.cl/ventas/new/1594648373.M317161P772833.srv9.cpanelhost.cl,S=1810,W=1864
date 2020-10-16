@@ -1,0 +1,54 @@
+Return-Path: <no-reply@locosxchiloe.cl>
+Delivered-To: ventas@locosxchiloe.cl
+Received: from srv9.cpanelhost.cl
+	by srv9.cpanelhost.cl with LMTP
+	id SAhhEjVnDF/hygsA8CuIPA
+	(envelope-from <no-reply@locosxchiloe.cl>)
+	for <ventas@locosxchiloe.cl>; Mon, 13 Jul 2020 09:52:53 -0400
+Return-path: <no-reply@locosxchiloe.cl>
+Envelope-to: ventas@locosxchiloe.cl
+Delivery-date: Mon, 13 Jul 2020 09:52:53 -0400
+Received: from clo58957 (helo=locosxchiloe.cl)
+	by srv9.cpanelhost.cl with local-smtp (Exim 4.92)
+	(envelope-from <no-reply@locosxchiloe.cl>)
+	id 1juyt3-003FZK-9G
+	for ventas@locosxchiloe.cl; Mon, 13 Jul 2020 09:52:53 -0400
+Message-ID: <9d626481b9686b17131bc97fdd0f7cd1@locosxchiloe.cl>
+Date: Mon, 13 Jul 2020 13:52:53 +0000
+Subject: Formulario de contacto
+From: no-reply@locosxchiloe.cl
+To: ventas@locosxchiloe.cl
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1594648373_544b18c414c6a4347c280695661a38c0_=_"
+
+
+--_=_swift_1594648373_544b18c414c6a4347c280695661a38c0_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Plain text content
+
+--_=_swift_1594648373_544b18c414c6a4347c280695661a38c0_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<table>
+            <tr>
+            <td>NOMBRE:</td>
+            <td>Javier</td>
+            </tr>
+            <tr>
+            <td>CORREO:</td>
+            <td>jaal1974@gmail.com</td>
+            </tr>
+            <tr>
+            <td>MENSAJE:</td>
+            <td>Buenos d=C3=ADas. Hay varios productos que quisiera dejar c=
+omprado ahora, pero se puede coordinar para que la entrega sea este viernes=
+? Quedo atento a sus cometnarios por favor. gracias.</td>
+            </tr>
+            </table>
+
+--_=_swift_1594648373_544b18c414c6a4347c280695661a38c0_=_--
+

@@ -1,0 +1,456 @@
+# Webalizer V2.23-08 Incremental Data - 09/29/2020 03:07:53
+2020 9 29 3 7 53
+137 0 91 0 2 31 33067 70 58 0
+1 1 17 1 29
+2 0 476 2 1 1
+6 0 1400 6 6 6
+4 0 950 3 3 3
+3 0 706 3 2 2
+4 0 946 3 3 3
+1 0 236 1 1 1
+7 0 1666 6 5 5
+5 0 1184 5 4 4
+3 0 714 3 2 2
+1 0 232 1 1 1
+2 0 464 2 2 2
+6 0 1430 4 4 4
+18 0 4467 3 8 2
+16 0 3987 1 7 1
+3 0 714 3 2 2
+27 0 6541 27 4 4
+10 0 2453 9 1 1
+0 0 0 0 0 0
+4 0 937 4 4 4
+4 0 946 3 3 3
+2 0 482 1 1 1
+1 0 236 1 1 1
+1 0 236 1 1 1
+1 0 232 1 1 1
+1 0 236 1 1 1
+1 0 232 1 1 1
+2 0 488 2 0 0
+1 0 232 1 1 1
+1 0 244 1 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+1 0 232 1
+6 0 1410 5
+9 0 2303 2
+20 0 5203 1
+1 0 232 1
+5 0 1215 2
+6 0 1436 4
+2 0 464 2
+2 0 488 0
+5 0 1180 4
+2 0 482 1
+9 0 2176 4
+5 0 717 4
+1 0 244 0
+17 0 4219 8
+19 0 4699 9
+2 0 464 2
+5 0 1184 4
+3 0 700 3
+2 0 464 2
+0 0 0 0
+3 0 720 2
+7 0 1652 5
+5 0 1183 4
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+137
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+# End Of Table - urls
+# -sites- (monthly)
+ipv4-64-246-161-30.greenhousedata.net
+0 2 0 482 1 1600581691
+-
+87.106.204.37
+0 16 0 3987 1 1600097207
+-
+p3nlhg1272.shr.prod.phx3.secureserver.net
+0 1 0 263 0 0
+-
+crawl-66-249-70-86.googlebot.com
+0 2 0 472 2 1599514779
+-
+217.160.241.170
+0 16 0 3987 1 1600008284
+-
+a2nlwpweb230.prod.iad2.secureserver.net
+0 1 0 267 0 0
+-
+mail.eu-expertprojects.ro
+0 1 0 244 0 0
+-
+p3nlhg147.shr.prod.phx3.secureserver.net
+0 1 0 263 0 0
+-
+ec2-54-201-53-19.us-west-2.compute.amazonaws.com
+0 1 0 232 1 1601133506
+-
+209.17.96.170.rdns.cloudsystemnetworks.com
+0 1 0 237 1 1600558143
+-
+p3nlhg2049.shr.prod.phx3.secureserver.net
+0 1 0 262 0 0
+-
+st0625.nas851.p-tokyo.nttpc.ne.jp
+0 1 0 244 0 0
+-
+209.17.97.106.rdns.cloudsystemnetworks.com
+0 1 0 236 1 1600508649
+-
+t-com-serveri.132.crnagora.net
+0 1 0 248 0 0
+-
+209.17.96.106.rdns.cloudsystemnetworks.com
+0 2 0 464 2 1600268118
+-
+ec2-34-212-68-104.us-west-2.compute.amazonaws.com
+0 1 0 232 1 1599608506
+-
+crawl-66-249-65-132.googlebot.com
+0 2 0 482 1 1599132825
+-
+spider-01.dataprovider.com
+0 1 0 236 1 1599587564
+-
+199.244.88.132
+0 2 0 464 2 1600506768
+-
+crawl-66-249-79-212.googlebot.com
+0 4 0 954 3 1600167181
+-
+51-158-154-104.rev.poneytelecom.eu
+0 1 0 232 1 1599084610
+-
+sg2nlhg157.shr.prod.sin2.secureserver.net
+0 1 0 263 0 0
+-
+205.87.66.34.bc.googleusercontent.com
+0 1 0 232 1 1599934934
+-
+111.231.90.235
+0 1 0 248 0 0
+-
+c-73-72-191-95.hsd1.il.comcast.net
+0 1 0 262 0 0
+-
+98.189.68.34.bc.googleusercontent.com
+0 1 0 236 1 1599073163
+-
+ec2-3-7-227-97.ap-south-1.compute.amazonaws.com
+0 1 0 244 0 0
+-
+341468.cloudwaysapps.com
+0 1 0 248 0 0
+-
+n3nlwpweb013.prod.ams3.secureserver.net
+0 1 0 263 0 0
+-
+crawl-66-249-79-214.googlebot.com
+0 1 0 236 1 1599618858
+-
+62-210-114-54.rev.poneytelecom.eu
+0 1 0 244 0 0
+-
+crawl-66-249-73-71.googlebot.com
+0 1 0 242 0 0
+-
+host.hddpool7.net
+0 1 0 264 0 0
+-
+209.17.96.130.rdns.cloudsystemnetworks.com
+0 1 0 232 1 1599928937
+-
+ec2-3-14-135-141.us-east-2.compute.amazonaws.com
+0 1 0 232 1 1599786198
+-
+159.203.44.43
+0 1 0 0 1 1600260098
+-
+m019640.rna1.blindsidenetworks.com
+0 1 0 232 1 1599103395
+-
+51.77.129.159
+0 1 0 236 1 1599587634
+-
+sg2plcpnl0170.prod.sin2.secureserver.net
+0 1 0 263 0 0
+-
+crawl-66-249-70-118.googlebot.com
+0 2 0 482 1 1600670443
+-
+209.17.96.42.rdns.cloudsystemnetworks.com
+0 1 0 236 1 1600841409
+-
+138.68.45.164
+0 1 0 249 0 0
+-
+ec2-18-197-193-89.eu-central-1.compute.amazonaws.com
+0 1 0 232 1 1599786282
+-
+51-159-34-92.rev.poneytelecom.eu
+0 1 0 236 1 1599085234
+-
+204.101.161.19
+0 1 0 232 1 1599508755
+-
+167.172.47.240
+0 1 0 244 0 0
+-
+pc-3-28-161-190.cm.vtr.net
+0 1 0 236 1 1599131113
+-
+134.209.150.109
+0 1 0 249 0 0
+-
+n3nlwpweb025.prod.ams3.secureserver.net
+0 1 0 264 0 0
+-
+server-46.45.185.183.as42926.net
+0 1 0 232 1 1599457387
+-
+xxb116-241.entelchile.net
+0 1 0 236 1 1600035150
+-
+138.197.158.232
+0 1 0 0 1 1600260096
+-
+ec2-34-244-250-123.eu-west-1.compute.amazonaws.com
+0 2 0 474 1 1600382648
+-
+crawl-66-249-70-82.googlebot.com
+0 1 0 236 1 1599482364
+-
+crawl-66-249-73-73.googlebot.com
+0 1 0 232 1 1599257333
+-
+sg2nlhg009.shr.prod.sin2.secureserver.net
+0 1 0 263 0 0
+-
+a2plcpnl0612.prod.iad2.secureserver.net
+0 1 0 264 0 0
+-
+209.17.96.66.rdns.cloudsystemnetworks.com
+0 1 0 237 1 1600259749
+-
+ec2-52-193-134-211.ap-northeast-1.compute.amazonaws.com
+0 1 0 249 0 0
+-
+134.209.123.101
+0 1 0 244 0 0
+-
+37.120.145.93
+0 1 0 232 1 1600646277
+-
+ec2-54-71-63-128.us-west-2.compute.amazonaws.com
+0 1 0 232 1 1600153526
+-
+ec2-44-234-153-159.us-west-2.compute.amazonaws.com
+0 1 0 232 1 1599031470
+-
+crawl-66-249-79-210.googlebot.com
+0 5 0 1210 2 1599384375
+-
+206.37.196.35.bc.googleusercontent.com
+0 1 0 244 0 0
+-
+p3nlwpweb107.shr.prod.phx3.secureserver.net
+0 1 0 267 0 0
+-
+n3nlwpweb048.prod.ams3.secureserver.net
+0 1 0 264 0 0
+-
+p3nlwpweb182.shr.prod.phx3.secureserver.net
+0 1 0 266 0 0
+-
+51.91.218.19
+0 1 0 236 1 1599587652
+-
+pc-56-103-239-201.cm.vtr.net
+0 2 0 464 2 1599764582
+-
+p3nlwpweb438.prod.phx3.secureserver.net
+0 1 0 264 0 0
+-
+209.17.96.146.rdns.cloudsystemnetworks.com
+0 2 0 464 2 1600491561
+-
+p3nlhg349.shr.prod.phx3.secureserver.net
+0 1 0 263 0 0
+-
+p3nwvpweb159.shr.prod.phx3.secureserver.net
+0 1 0 261 0 0
+-
+caprover.southfestivals.fi
+0 1 0 248 0 0
+-
+209.17.96.162.rdns.cloudsystemnetworks.com
+0 1 0 232 1 1599012265
+-
+p3nlhg1436.shr.prod.phx3.secureserver.net
+0 1 0 264 0 0
+-
+181.72.152.246
+0 1 0 232 1 1599324413
+-
+n3nlwpweb063.prod.ams3.secureserver.net
+0 1 0 269 0 0
+-
+p3nlhg189.shr.prod.phx3.secureserver.net
+0 1 0 267 0 0
+-
+n3nlwpweb047.prod.ams3.secureserver.net
+0 1 0 264 0 0
+-
+unn-84-17-48-134.cdn77.com
+0 1 0 232 1 1601292661
+-
+p3nlhg207.shr.prod.phx3.secureserver.net
+0 1 0 262 0 0
+-
+203.32.122.34.bc.googleusercontent.com
+0 1 0 236 1 1600751629
+-
+209.17.96.210.rdns.cloudsystemnetworks.com
+0 1 0 236 1 1601015438
+-
+static.vnpt-hanoi.com.vn
+0 1 0 248 0 0
+-
+209.17.96.218.rdns.cloudsystemnetworks.com
+0 1 0 232 1 1600910786
+-
+crawl-66-249-70-84.googlebot.com
+0 1 0 246 0 0
+-
+104.248.236.204
+0 1 0 232 1 1600628308
+-
+ns2.aibd.sn
+0 1 0 244 0 0
+-
+33.77.232.35.bc.googleusercontent.com
+0 1 0 232 1 1599068638
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+167.172.47.240
+0 1 0 244 0 0
+-
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 135
+http://locosxchiloe.cl/
+0 2
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.110 Mobile 
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36
+0 1
+Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)
+0 12
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.92 Mobile S
+0 10
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko; compatible; BW/1.1; bit.ly/2W6Px8S) Chrome/8
+0 2
+Mozilla/5.0 (compatible; Dataprovider.com)
+0 3
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36 OPR/54.0.2
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36
+0 1
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 8
+Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:28.0) Gecko/20100101 Firefox/28.0
+0 32
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+0 23
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+0 1
+Mozilla
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.65 Safari/537.31
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36
+0 2
+Mozilla/5.0 (Linux; Android 9; moto g(8) power lite) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.81 Mobile Safari
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:59.0) Gecko/20100101 Firefox/59.0
+0 2
+Mozilla/5.0 (Windows NT 6.1; rv:57.0) Gecko/20100101 Firefox/57.0
+0 4
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36
+0 2
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
+0 15
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+0 1
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

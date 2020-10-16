@@ -1,0 +1,1252 @@
+# Webalizer V2.23-08 Incremental Data - 09/29/2020 03:08:02
+2020 9 29 3 8 2
+3168 2864 192 126 51 98 293310088 553 275 0
+4 8 258 1 29
+485 467 44103517 11 30 9
+14 14 992576 11 11 10
+463 388 49141765 17 105 17
+66 56 2280587 12 16 14
+208 208 21905121 15 19 15
+17 17 1501384 10 7 6
+174 168 17374599 12 15 13
+201 191 19804813 10 34 9
+39 39 1503327 12 13 10
+136 134 15544904 12 11 10
+159 158 14659174 11 11 9
+51 50 2127998 12 11 9
+297 246 30133368 10 52 12
+31 20 1214087 11 14 7
+100 100 9102071 12 12 10
+134 107 10697652 36 17 15
+23 14 708576 16 10 8
+9 9 449868 4 7 6
+158 155 12904996 10 9 7
+17 15 732878 10 13 9
+26 26 1116274 7 9 7
+41 12 3468758 7 36 7
+10 10 682558 7 9 8
+9 9 469930 8 5 4
+25 16 1032400 13 15 13
+118 107 11756579 7 9 7
+110 91 13915632 12 19 8
+35 30 3462213 7 27 12
+12 7 522483 4 7 4
+0 0 0 0 0 0
+0 0 0 0 0 0
+216 207 22425891 34
+391 371 32111848 42
+42 36 1318814 24
+43 19 1163946 11
+23 15 974810 8
+56 20 1979871 36
+38 36 1485140 10
+28 27 951085 10
+13 9 384241 6
+34 32 1590874 7
+126 98 9596394 36
+388 357 45944809 39
+191 177 17075106 18
+55 26 1863959 41
+118 105 10321639 19
+188 172 14223893 27
+193 192 19697496 13
+298 286 31030424 44
+171 163 21059237 18
+154 151 19274574 15
+40 11 1397833 36
+211 205 17710036 21
+129 128 18539074 23
+22 21 1189094 15
+0
+0
+0
+2864
+0
+0
+0
+0
+0
+12
+0
+0
+19
+0
+40
+0
+0
+0
+3
+0
+0
+230
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/assets/datatables/datatables.min.css
+0 30 8319045105058736492 297930 0 0
+/assets/images/product/21/principal.jpg
+0 26 15424830047452737075 1960504 0 0
+/assets/images/icons/wsp.png
+0 26 3906926557108633600 243576 0 0
+/assets/js/rut.js
+0 1 7237128952344491825 1466 0 0
+/assets/images/jaibas.png
+0 20 0 2666140 0 0
+/assets/css/slick.css
+0 31 0 53280 0 0
+/sitemap.xml
+0 4 0 26516 0 0
+/assets/fonts/Simple-Line-Icons.woff2
+0 19 0 326952 0 0
+/assets/54c5a5a4/css/bootstrap.css
+0 33 0 5140014 0 0
+/assets/css/all.min.css
+0 32 0 1746912 0 0
+/assets/js/gestion.js
+0 3 0 9462 0 0
+/assets/images/product/14/principal.jpg
+0 24 0 2411182 0 0
+/assets/owlcarousel/css/owl.theme.css
+0 31 0 54684 0 0
+/assets/owlcarousel/js/owl.carousel.min.js
+0 32 0 1371520 0 0
+/assets/css/ionicons.min.css
+0 33 0 1692735 0 0
+/assets/fonts/Linearicons.ttf
+0 1 0 404444 0 0
+/assets/8e70d2b3/yii.js
+0 28 0 585508 0 0
+/assets/js/jquery.appear.js
+0 30 0 42862 0 0
+/assets/css/animate.css
+0 34 0 2482986 0 0
+/assets/js/slick.min.js
+0 35 0 1416240 0 0
+/assets/datatables/Buttons-1.5.6/js/dataTables.buttons.min.js
+0 4 0 81120 0 0
+/assets/images/instagram_ceviche.png
+0 21 0 2549295 0 0
+/assets/4d65e280/jquery.js
+0 30 0 2914890 0 0
+/site/register
+0 3 0 72600 2 1
+/assets/js/scripts.js
+0 31 0 825127 0 0
+/assets/css/linearicons.css
+0 36 0 2097540 0 0
+/site/terminos
+0 3 0 8077683 1 0
+/assets/js/popper.min.js
+0 31 0 651279 0 0
+/assets/images/product/10/principal.jpg
+0 26 0 2294200 0 0
+/assets/js/jquery.countdown.min.js
+0 30 0 160800 0 0
+/assets/js/Hoverparallax.min.js
+0 30 0 368160 0 0
+/site/productos
+0 32 0 2875536 23 18
+/assets/fonts/fa-brands-400.woff2
+0 18 0 1298160 0 0
+/assets/images/product/22/principal.jpg
+0 30 0 2855543 0 0
+/site/promociones/
+0 17 0 565641 17 15
+/assets/js/isotope.min.js
+0 32 0 1134592 0 0
+/site/contact
+0 8 0 159866 1 2
+/assets/images/product/23/principal.jpg
+0 28 0 2153250 0 0
+/assets/css/login.css
+0 4 0 219 0 0
+/site/login
+0 13 0 52913 0 1
+/site/cbuy
+0 2 0 51883 0 1
+/assets/js/jquery.elevatezoom.js
+0 29 0 1759111 0 0
+/assets/fonts/ionicons.ttf
+0 27 0 5089716 0 0
+/assets/js/ajustes.js
+0 30 0 105056 0 0
+/assets/images/product/27/principal.jpg
+0 24 0 2598471 0 0
+/favicon.ico
+0 5 0 1590 0 0
+/assets/owlcarousel/css/owl.theme.default.min.css
+0 34 0 33594 0 0
+/site/nosotros
+0 8 0 153591 2 1
+/assets/fonts/fa-solid-900.woff
+0 1 0 96248 0 0
+/assets/images/product/12/principal.jpg
+0 26 0 2986984 0 0
+/assets/images/favicon.png
+0 21 0 760140 0 0
+/assets/fonts/themify.woff
+0 26 0 1458808 0 0
+/assets/fonts/Simple-Line-Icons.svg
+0 1 0 179404 0 0
+/assets/images/product/26/principal.jpg
+0 22 0 1742224 0 0
+/assets/js/parallax.js
+0 31 0 180480 0 0
+/assets/images/Logo_redondo.png
+0 3 0 5916927 0 0
+/assets/images/loading.gif
+0 2 0 13134 0 0
+/assets/js/imagesloaded.pkgd.min.js
+0 30 0 167820 0 0
+/assets/datatables/datatables.min.js
+0 3 0 6153294 0 0
+/site/estadisticas
+0 1 0 34480 0 0
+/assets/images/product/38/principal.jpg
+0 33 0 2534144 0 0
+/assets/datatables/DataTables-1.10.18/css/dataTables.bootstrap4.min.css
+0 31 0 161882 0 0
+/assets/images/product/11/principal.jpg
+0 26 0 3819950 0 0
+/assets/images/logo_light.png
+0 28 0 169884 0 0
+/assets/images/instagram_salmon.png
+0 18 0 1965258 0 0
+/assets/css/jquery-ui.css
+0 33 0 1187109 0 0
+/assets/bootstrap/js/bootstrap.min.js
+0 33 0 1916574 0 0
+/assets/js/waypoints.min.js
+0 30 0 241530 0 0
+/assets/images/product/18/principal.jpg
+0 29 0 2619148 0 0
+/assets/images/instagram_locosxchiloe.png
+0 20 0 2528080 0 0
+/assets/images/pescados-mariscos.jpg
+0 19 0 1545498 0 0
+/assets/js/jquery-ui.js
+0 32 0 16662848 0 0
+/assets/images/product/48/principal.jpg
+0 26 0 2815025 0 0
+/css/site.css
+0 36 0 123726 0 0
+/site/gestion
+0 7 0 278665 2 1
+/assets/images/product/44/principal.jpg
+0 25 0 1959072 0 0
+/assets/fonts/Linearicons.woff
+0 27 0 10922040 0 0
+/assets/css/themify-icons.css
+0 33 0 578523 0 0
+/assets/images/product/19/principal.jpg
+0 29 0 2643088 0 0
+/assets/images/product/53/principal.jpg
+0 21 0 531740 0 0
+/assets/images/product/54/principal.jpg
+0 25 0 53602625 0 0
+/assets/datatables/pdfmake-0.1.36/vfs_fonts.js
+0 3 0 2610852 0 0
+/assets/images/product/13/principal.jpg
+0 26 0 1573825 0 0
+/assets/images/product/16/principal.jpg
+0 26 0 2063125 0 0
+/assets/images/product/29/principal.jpg
+0 27 0 2321781 0 0
+/site/variantes
+0 1 0 29749 0 0
+/assets/js/magnific-popup.min.js
+0 32 0 647168 0 0
+/assets/datatables/JSZip-2.5.0/jszip.min.js
+0 4 0 307940 0 0
+/assets/datatables/pdfmake-0.1.36/pdfmake.min.js
+0 4 0 3881548 0 0
+/assets/images/slider/7/banner.jpg
+0 17 0 4936120 0 0
+/assets/css/responsive.css
+0 34 0 1451154 0 0
+/site/filter
+0 9 0 347381 5 4
+/assets/images/product/15/principal.jpg
+0 25 0 2762736 0 0
+/site/slider
+0 5 0 113673 0 1
+/site/
+0 4 0 320180 0 0
+/
+0 237 0 15994575 182 97
+/assets/js/jquery.dd.min.js
+0 30 0 635430 0 0
+/assets/images/blanco.jpg
+0 4 0 110792 0 0
+/site/cart
+0 3 0 194671 2 0
+/assets/images/product/24/principal.jpg
+0 26 0 2179875 0 0
+/assets/images/slider/5/banner.jpg
+0 23 0 5978323 0 0
+/assets/images/logo_redondo.png
+0 6 0 11833854 0 0
+/assets/images/product/20/principal.jpg
+0 26 0 2988622 0 0
+/assets/css/magnific-popup.css
+0 30 0 219060 0 0
+/assets/owlcarousel/css/owl.carousel.min.css
+0 31 0 90480 0 0
+/assets/bootstrap/css/bootstrap.min.css
+0 4 0 623056 0 0
+/assets/images/product/46/principal.jpg
+0 30 0 2890778 0 0
+/assets/css/flaticon.css
+0 32 0 75950 0 0
+/robots.txt
+0 46 0 1058 0 0
+/assets/images/product/42/principal.jpg
+0 25 0 2867232 0 0
+/assets/images/instagram_salmon-1.png
+0 20 0 2373020 0 0
+/site/product
+0 52 0 1842745 34 28
+/assets/js/sweetalert2.all.min.js
+0 32 0 2122112 0 0
+/assets/css/slick-theme.css
+0 32 0 97495 0 0
+/assets/datatables/Buttons-1.5.6/js/buttons.html5.min.js
+0 3 0 74298 0 0
+/assets/fonts/fa-solid-900.woff2
+0 5 0 371580 0 0
+/assets/images/wp_lg.png
+0 24 0 830576 0 0
+/site/promociones
+0 7 0 233302 0 1
+/assets/images/logo_dark.png
+0 27 0 163350 0 0
+/assets/images/slider/6/banner.jpg
+0 16 0 3112480 0 0
+/assets/54c5a5a4/css/bootstrap.min.css.map
+0 6 0 3242604 0 0
+/assets/images/product/35/principal.jpg
+0 28 0 2064805 0 0
+/assets/css/style.css
+0 35 0 6024200 0 0
+/assets/css/simple-line-icons.css
+0 32 0 368559 0 0
+/assets/images/salmon-ahumado.jpg
+0 21 0 1243489 0 0
+/assets/images/locosxchiloe-plato.png
+0 19 0 2575697 0 0
+# End Of Table - urls
+# -sites- (monthly)
+pc-46-127-163-190.cm.vtr.net
+0 1 1 98467 0 0
+-
+87.106.204.37
+0 16 5 596136 1 1600097209
+-
+pc-23-0-241-201.cm.vtr.net
+0 86 86 8430164 1 1600165959
+/site/promociones
+209.17.97.26.rdns.cloudsystemnetworks.com
+0 1 1 36523 1 1600565488
+/
+fwdproxy-atn-014.fbsv.net
+0 1 1 80069 1 1601073069
+/
+200.119.233.38
+0 1 1 152798 0 0
+-
+p3nlhg1272.shr.prod.phx3.secureserver.net
+0 1 0 17821 0 0
+-
+217.160.241.170
+0 16 5 596136 1 1600008285
+-
+static-adsl190-250-126-22.une.net.co
+0 1 1 115114 0 0
+-
+pc-94-2-163-190.cm.vtr.net
+0 89 89 10881140 1 1599328499
+/
+pc-10-99-239-201.cm.vtr.net
+0 91 90 8992879 1 1599142942
+/site/product
+a2nlwpweb230.prod.iad2.secureserver.net
+0 1 0 17821 0 0
+-
+client-186-11-94-167.imovil.entelpcs.cl
+0 1 1 96148 0 0
+-
+45.232.93.9
+0 1 1 94396 0 0
+-
+crawl-66-249-65-148.googlebot.com
+0 26 26 1231780 0 0
+-
+ec2-54-212-77-251.us-west-2.compute.amazonaws.com
+0 1 1 80021 1 1600935368
+/
+181.226.59.202
+0 1 1 112601 0 0
+-
+mail.eu-expertprojects.ro
+0 1 0 17821 0 0
+-
+181-163-102-227.baf.movistar.cl
+0 1 1 99682 0 0
+-
+b13164.entelchile.net
+0 20 19 1804451 1 1599836848
+/site/product
+pc-45-204-164-190.cm.vtr.net
+0 1 1 99682 0 0
+-
+181-203-93-87.bam.movistar.cl
+0 64 64 6469259 1 1600009206
+/
+p3nlhg147.shr.prod.phx3.secureserver.net
+0 1 0 17821 0 0
+-
+crawl-66-249-68-24.googlebot.com
+0 1 1 19149 1 1600078698
+/site/nosotros
+209.17.96.34.rdns.cloudsystemnetworks.com
+0 1 0 35 1 1600746043
+/
+ec2-54-201-53-19.us-west-2.compute.amazonaws.com
+0 1 1 80021 1 1601133510
+/
+host190.5.36.59.dynamic.pacificonet.cl
+0 44 44 1922621 1 1599786100
+/site/product
+crawl-66-249-68-16.googlebot.com
+0 6 6 200604 3 1599778016
+/
+pc-229-86-214-201.cm.vtr.net
+0 97 95 9380391 1 1598995129
+/site/filter
+crawl-66-249-70-102.googlebot.com
+0 1 1 12272 0 0
+-
+crawl-66-249-70-101.googlebot.com
+0 2 2 5617 0 0
+-
+server-46.45.185.189.as42926.net
+0 1 1 80021 1 1599457388
+/
+pc-157-202-47-190.cm.vtr.net
+0 1 1 87195 0 0
+-
+client-186-11-53-143.imovil.entelpcs.cl
+0 7 7 1325944 2 1599156546
+/site/gestion
+209.17.97.66.rdns.cloudsystemnetworks.com
+0 1 1 80021 1 1600911321
+/
+z245.entelchile.net
+0 1 1 98467 0 0
+-
+crawl-66-249-65-152.googlebot.com
+0 5 5 165406 2 1599212415
+/
+209.17.96.170.rdns.cloudsystemnetworks.com
+0 1 0 35 1 1601044870
+/
+p3nlhg2049.shr.prod.phx3.secureserver.net
+0 1 0 17821 0 0
+-
+191-115-48-32.baf.movistar.cl
+0 107 107 11120313 1 1601118746
+/
+st0625.nas851.p-tokyo.nttpc.ne.jp
+0 1 0 17821 0 0
+-
+pc-217-58-100-190.cm.vtr.net
+0 120 99 16141717 8 1601321691
+/site/register
+209.17.96.186.rdns.cloudsystemnetworks.com
+0 1 1 80069 1 1601164854
+/
+ec2-35-165-92-162.us-west-2.compute.amazonaws.com
+0 1 1 318 0 0
+-
+t-com-serveri.132.crnagora.net
+0 1 0 17869 0 0
+-
+201.186.200.82
+0 1 1 79192 0 0
+-
+181-203-103-202.bam.movistar.cl
+0 1 1 94396 0 0
+-
+crawl-66-249-70-69.googlebot.com
+0 15 15 583423 1 1599514780
+/
+pc-120-145-161-190.cm.vtr.net
+0 1 1 99682 0 0
+-
+a23.entelchile.net
+0 111 105 15517093 1 1599131965
+/site/gestion
+spider-01.dataprovider.com
+0 29 20 3454597 1 1599587616
+/
+199.244.88.132
+0 2 2 160042 2 1600506769
+/
+crawl-66-249-68-14.googlebot.com
+0 12 12 453189 4 1599676740
+/site/product
+crawl-66-249-73-88.googlebot.com
+0 57 54 2957566 12 1599257335
+/
+186.105.28.213
+0 1 1 98467 0 0
+-
+51-158-154-104.rev.poneytelecom.eu
+0 1 1 80021 1 1599084611
+/
+sg2nlhg157.shr.prod.sin2.secureserver.net
+0 1 0 17821 0 0
+-
+205.87.66.34.bc.googleusercontent.com
+0 31 3 739051 2 1599993251
+-
+216.155.68.39
+0 1 1 91768 0 0
+-
+159.89.115.29
+0 1 1 0 1 1600260096
+/
+111.231.90.235
+0 1 0 17869 0 0
+-
+ec2-52-27-28-191.us-west-2.compute.amazonaws.com
+0 1 1 318 0 0
+-
+c-73-72-191-95.hsd1.il.comcast.net
+0 1 0 17821 0 0
+-
+98.189.68.34.bc.googleusercontent.com
+0 31 3 740539 2 1599138786
+-
+ec2-3-7-227-97.ap-south-1.compute.amazonaws.com
+0 1 0 17821 0 0
+-
+pc-134-183-83-200.cm.vtr.net
+0 86 75 7610986 1 1600000774
+/
+341468.cloudwaysapps.com
+0 1 0 17869 0 0
+-
+n3nlwpweb013.prod.ams3.secureserver.net
+0 1 0 17821 0 0
+-
+crawl-66-249-79-197.googlebot.com
+0 32 32 1373794 5 1599947081
+/
+crawl-66-249-75-220.googlebot.com
+0 2 2 113294 2 1598975756
+/site/promociones/
+crawl-66-249-70-58.googlebot.com
+0 34 30 1407596 16 1601345230
+/site/promociones/
+fwdproxy-pnb-111.fbsv.net
+0 1 1 80069 1 1601049239
+/
+crawl-66-249-70-104.googlebot.com
+0 2 2 80092 1 1600670444
+/
+209.17.96.114.rdns.cloudsystemnetworks.com
+0 1 0 35 1 1600500993
+/
+pc-8-171-46-190.cm.vtr.net
+0 1 1 119468 0 0
+-
+62-210-114-54.rev.poneytelecom.eu
+0 1 0 17821 0 0
+-
+181.73.254.235
+0 2 2 158384 0 0
+-
+crawl-66-249-68-26.googlebot.com
+0 2 2 119962 2 1600100875
+/site/product
+host.hddpool7.net
+0 1 0 17821 0 0
+-
+static-186-155-186-17.static.etb.net.co
+0 1 1 114884 0 0
+-
+ec2-3-14-135-141.us-east-2.compute.amazonaws.com
+0 84 84 8324771 1 1599786199
+/
+pc-220-59-104-200.cm.vtr.net
+0 1 1 152798 0 0
+-
+209.17.97.34.rdns.cloudsystemnetworks.com
+0 1 1 36523 1 1601193408
+/
+159.203.44.43
+0 1 1 0 1 1600260101
+/
+ec2-44-234-109-51.us-west-2.compute.amazonaws.com
+0 1 1 80021 1 1599290235
+/
+m019640.rna1.blindsidenetworks.com
+0 1 1 80021 1 1599103399
+/
+181-203-67-16.bam.movistar.cl
+0 1 1 114884 0 0
+-
+51.77.129.159
+0 78 78 7657509 1 1599587636
+/
+crawl-66-249-73-92.googlebot.com
+0 14 10 440333 7 1599324834
+/
+sg2plcpnl0170.prod.sin2.secureserver.net
+0 1 0 17821 0 0
+-
+crawl-66-249-65-150.googlebot.com
+0 8 8 375570 1 1599911901
+/
+crawl-66-249-70-70.googlebot.com
+0 6 6 110951 1 1599482366
+/
+fwdproxy-pnb-018.fbsv.net
+0 1 1 80069 1 1601049239
+/
+209.17.96.42.rdns.cloudsystemnetworks.com
+0 1 1 80081 1 1600257947
+/
+138.68.45.164
+0 1 0 17881 0 0
+-
+190-21-201-194.baf.movistar.cl
+0 1 1 93541 0 0
+-
+ec2-18-197-193-89.eu-central-1.compute.amazonaws.com
+0 1 1 80021 1 1599786284
+/
+209.17.96.234.rdns.cloudsystemnetworks.com
+0 1 1 80081 1 1600359323
+/
+pc-247-118-120-200.cm.vtr.net
+0 1 1 1972309 0 0
+-
+51-159-34-92.rev.poneytelecom.eu
+0 1 1 80069 1 1599085236
+/
+cpe-186-22-238-229.telecentro-reversos.com.ar
+0 1 1 81306 0 0
+-
+138.197.151.177
+0 1 1 0 1 1600260094
+/
+dynamic-186-29-183-69.dynamic.etb.net.co
+0 1 1 114884 0 0
+-
+crawl-66-249-79-53.googlebot.com
+0 26 26 1715482 15 1601197041
+/
+190.215.138.30
+0 1 1 114947 0 0
+-
+fwdproxy-pnb-120.fbsv.net
+0 1 1 91768 0 0
+-
+186.35.9.198
+0 1 1 94396 0 0
+-
+167.172.47.240
+0 8 3 329168 1 1601348881
+/
+pc-3-28-161-190.cm.vtr.net
+0 196 180 27284028 3 1599503379
+/site/productos
+xxb241-172.entelchile.net
+0 67 67 4299139 1 1598995643
+/site/productos
+crawl-66-249-73-90.googlebot.com
+0 28 25 1182134 7 1599311576
+/
+181-203-9-142.bam.movistar.cl
+0 1 1 79750 0 0
+-
+crawl-66-249-70-60.googlebot.com
+0 31 24 1325002 21 1601161581
+/
+134.209.150.109
+0 1 0 17881 0 0
+-
+n3nlwpweb025.prod.ams3.secureserver.net
+0 1 0 17821 0 0
+-
+crawl-66-249-70-72.googlebot.com
+0 3 3 109489 1 1599440960
+/
+xxb116-241.entelchile.net
+0 91 91 14308539 1 1600035217
+/
+186.106.226.200
+0 1 1 75404 0 0
+-
+client-186-11-62-55.imovil.entelpcs.cl
+0 61 61 3593898 1 1600530432
+/site/product
+crawl-66-249-79-200.googlebot.com
+0 13 13 638131 0 0
+-
+pc-155-24-101-190.cm.vtr.net
+0 1 1 81306 0 0
+-
+138.197.158.232
+0 1 1 0 1 1600260097
+/
+crawl-66-249-79-59.googlebot.com
+0 8 8 383393 6 1600576763
+/
+209.17.96.90.rdns.cloudsystemnetworks.com
+0 1 1 80021 1 1599827442
+/
+ec2-34-244-250-123.eu-west-1.compute.amazonaws.com
+0 2 2 80044 1 1600382650
+/
+fwdproxy-pnb-002.fbsv.net
+0 1 1 80069 1 1601049240
+/
+z403.entelchile.net
+0 1 1 112601 0 0
+-
+dvc-109-175-156-186.movil.vtr.net
+0 1 1 81628 0 0
+-
+163.247.90.55
+0 76 76 7239299 1 1599483479
+/site/productos
+b13178.entelchile.net
+0 1 1 81306 0 0
+-
+sg2nlhg009.shr.prod.sin2.secureserver.net
+0 1 0 17821 0 0
+-
+fwdproxy-prn-018.fbsv.net
+0 1 1 80069 1 1601316674
+/
+a2plcpnl0612.prod.iad2.secureserver.net
+0 1 0 17821 0 0
+-
+z448.entelchile.net
+0 1 1 79192 0 0
+-
+pc-61-181-83-200.cm.vtr.net
+0 88 88 8934154 1 1600533674
+/site/filter
+crawl-66-249-70-56.googlebot.com
+0 47 43 2181934 27 1601338685
+/
+209.17.96.66.rdns.cloudsystemnetworks.com
+0 1 1 80021 1 1599032027
+/
+ec2-52-193-134-211.ap-northeast-1.compute.amazonaws.com
+0 1 0 17881 0 0
+-
+134.209.123.101
+0 1 0 17821 0 0
+-
+190.217.137.118
+0 4 4 316768 0 0
+-
+pc-96-137-47-190.cm.vtr.net
+0 1 1 79192 0 0
+-
+37.120.145.93
+0 4 3 120004 1 1600646284
+/site/contact
+pc-124-253-164-190.cm.vtr.net
+0 1 1 93541 0 0
+-
+181.176.127.95
+0 2 2 141649 1 1599583710
+/site/product
+206.37.196.35.bc.googleusercontent.com
+0 1 0 17821 0 0
+-
+p3nlwpweb107.shr.prod.phx3.secureserver.net
+0 1 0 17821 0 0
+-
+n3nlwpweb048.prod.ams3.secureserver.net
+0 1 0 17821 0 0
+-
+191.116.166.211
+0 1 1 99682 0 0
+-
+181.226.163.168
+0 1 1 80069 1 1598997568
+/
+crawl-66-249-68-28.googlebot.com
+0 3 3 106746 2 1600046208
+/site/product
+p3nlwpweb182.shr.prod.phx3.secureserver.net
+0 1 0 17821 0 0
+-
+51.91.218.19
+0 81 81 8028657 1 1599587652
+/
+pc-56-103-239-201.cm.vtr.net
+0 520 503 53839891 3 1600282606
+/
+p3nlwpweb438.prod.phx3.secureserver.net
+0 1 0 17821 0 0
+-
+crawl-66-249-75-218.googlebot.com
+0 1 1 89859 1 1598970140
+/site/productos
+209.17.96.10.rdns.cloudsystemnetworks.com
+0 1 1 80069 1 1600866186
+/
+p3nlhg349.shr.prod.phx3.secureserver.net
+0 1 0 17821 0 0
+-
+201.189.76.232
+0 1 1 96148 0 0
+-
+p3nwvpweb159.shr.prod.phx3.secureserver.net
+0 1 0 17821 0 0
+-
+planetlab15.net.in.tum.de
+0 4 4 0 4 1601054778
+/
+caprover.southfestivals.fi
+0 1 0 17869 0 0
+-
+pc-63-255-160-190.cm.vtr.net
+0 1 1 114947 0 0
+-
+209.17.96.58.rdns.cloudsystemnetworks.com
+0 1 1 80081 1 1601197454
+/
+186.107.93.121
+0 4 4 2559266 0 0
+-
+209.17.97.74.rdns.cloudsystemnetworks.com
+0 1 1 80021 1 1599323326
+/
+181.72.152.246
+0 86 86 8476912 1 1599324436
+/
+p3nlhg1436.shr.prod.phx3.secureserver.net
+0 1 0 17821 0 0
+-
+209.17.96.2.rdns.cloudsystemnetworks.com
+0 1 1 80021 1 1600484248
+/
+209.17.96.178.rdns.cloudsystemnetworks.com
+0 1 1 80081 1 1600842210
+/
+n3nlwpweb063.prod.ams3.secureserver.net
+0 1 0 17821 0 0
+-
+p3nlhg189.shr.prod.phx3.secureserver.net
+0 1 0 17821 0 0
+-
+n3nlwpweb047.prod.ams3.secureserver.net
+0 1 0 17821 0 0
+-
+unn-84-17-48-134.cdn77.com
+0 4 3 120004 1 1601292670
+/site/contact
+p3nlhg207.shr.prod.phx3.secureserver.net
+0 1 0 17821 0 0
+-
+crawl-66-249-68-20.googlebot.com
+0 6 6 377913 4 1600615615
+/site/productos
+203.32.122.34.bc.googleusercontent.com
+0 31 3 740539 2 1600807399
+-
+pc-228-161-162-190.cm.vtr.net
+0 1 1 99682 0 0
+-
+monitor27.creattiva.cl
+0 54 54 2160567 27 1601346759
+/
+static.vnpt-hanoi.com.vn
+0 1 0 17869 0 0
+-
+209.17.96.218.rdns.cloudsystemnetworks.com
+0 1 1 80021 1 1600297108
+/
+191-125-8-120.bam.movistar.cl
+0 1 1 79192 0 0
+-
+181.160.203.59
+0 1 1 81306 0 0
+-
+crawl-66-249-79-56.googlebot.com
+0 10 9 375702 5 1600610588
+/
+crawl-66-249-79-198.googlebot.com
+0 18 18 527142 3 1600167182
+/
+209.17.96.202.rdns.cloudsystemnetworks.com
+0 3 3 153067 3 1600803535
+/
+rate-limited-proxy-74-125-150-14.google.com
+0 1 1 80021 1 1599753537
+/
+104.248.236.204
+0 1 1 80021 1 1600628310
+/
+fwdproxy-atn-017.fbsv.net
+0 1 1 80069 1 1601056953
+/
+186.67.71.39
+0 1 1 79750 0 0
+-
+186.113.22.82
+0 1 1 87195 0 0
+-
+ns2.aibd.sn
+0 1 0 17821 0 0
+-
+33.77.232.35.bc.googleusercontent.com
+0 31 3 739051 2 1599112736
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+crawl-66-249-70-58.googlebot.com
+0 1 1 33273 1 1601345230
+/site/promociones/
+167.172.47.240
+0 8 3 329168 1 1601348881
+/
+crawl-66-249-70-56.googlebot.com
+0 1 1 80021 1 1601338685
+/
+monitor27.creattiva.cl
+0 2 2 80021 1 1601346759
+/
+# End Of Table - sites (daily)
+# -referrers- 
+https://locosxchiloe.cl/site/contact
+0 10
+https://locosxchiloe.cl/site/login
+0 18
+https://www.locosxchiloe.cl/site/gestion
+0 22
+https://www.locosxchiloe.cl/site/nosotros
+0 2
+https://www.locosxchiloe.cl/assets/css/ionicons.min.css
+0 4
+https://locosxchiloe.cl/assets/css/slick-theme.css
+0 6
+https://www.google.cl/
+0 7
+https://www.locosxchiloe.cl/site/variantes
+0 1
+https://www.locosxchiloe.cl/assets/css/all.min.css
+0 4
+https://locosxchiloe.cl/assets/css/linearicons.css
+0 22
+https://www.locosxchiloe.cl/assets/css/style.css
+0 1
+https://locosxchiloe.cl/site/filter
+0 3
+http://www.locosxchiloe.cl/
+0 1
+https://locosxchiloe.cl/assets/css/ionicons.min.css
+0 21
+http://locosxchiloe.cl/wp-login.php
+0 8
+https://locosxchiloe.cl/
+0 1163
+https://www.locosxchiloe.cl/site/slider
+0 2
+https://locosxchiloe.cl/site/product
+0 187
+https://www.google.com/
+0 63
+- (Direct Request)
+0 593
+https://www.locosxchiloe.cl/site/login
+0 28
+https://locosxchiloe.cl/site/nosotros
+0 5
+https://locosxchiloe.cl/site/cbuy
+0 1
+http://www.locosxchiloe.cl/wp-login.php
+0 5
+https://locosxchiloe.cl/site/productos
+0 148
+https://www.google.com.co/
+0 1
+https://locosxchiloe.cl/assets/css/style.css
+0 1
+https://www.locosxchiloe.cl/assets/css/simple-line-icons.css
+0 2
+https://locosxchiloe.cl/site/promociones
+0 5
+https://locosxchiloe.cl/site/register
+0 2
+http://locosxchiloe.cl/
+0 1
+http://mail.locosxchiloe.cl/wp-login.php
+0 3
+https://www.locosxchiloe.cl/
+0 553
+https://locosxchiloe.cl/site/slider
+0 166
+https://www.locosxchiloe.cl/site/promociones
+0 1
+https://www.google.com/blank.html
+0 2
+https://locosxchiloe.cl/site/cart
+0 2
+https://locosxchiloe.cl/assets/css/simple-line-icons.css
+0 17
+https://locosxchiloe.cl/assets/js/ajustes.js
+0 1
+https://www.locosxchiloe.cl/site/product
+0 23
+https://locosxchiloe.cl/assets/css/all.min.css
+0 18
+https://www.locosxchiloe.cl/assets/css/linearicons.css
+0 4
+https://locosxchiloe.cl/site/gestion
+0 8
+https://locosxchiloe.cl/site/terminos
+0 1
+https://www.locosxchiloe.cl/site/estadisticas
+0 1
+https://outlook.live.com/
+0 1
+https://www.locosxchiloe.cl/assets/css/themify-icons.css
+0 4
+http://locosxchiloe.cl
+0 2
+https://www.locosxchiloe.cl/site/cart
+0 1
+https://locosxchiloe.cl/assets/css/themify-icons.css
+0 21
+http://www.locosxchiloe.cl
+0 2
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Linux; Android 5.1.1; SM-J111F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.90 Mobile Safari/537.36
+0 120
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.110 Mobile 
+0 10
+Mozilla/5.0 (iPhone; CPU iPhone OS 13_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Mobile/15E148 
+0 3
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36
+0 133
+Mozilla/5.0 (Linux; Android 9; SM-A105M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.81 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.113 Mobile 
+0 5
+WhatsApp/2.20.198.15 A
+0 3
+Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 8.0.0; SAMSUNG SM-G930F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/12.1 Chrome/79.0.3
+0 89
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36
+0 1
+Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)
+0 20
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.92 Mobile S
+0 38
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 1
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.115 Mobile 
+0 2
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.105 Mobile 
+0 37
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko; compatible; BW/1.1; bit.ly/2W6Px8S) Chrome/8
+0 2
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+0 1
+Mozilla/5.0 (compatible; Dataprovider.com)
+0 187
+Mozilla/5.0 (Linux; Android 6.0; DIG-L03) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36 OPR/54.0.2
+0 4
+Mozilla/5.0 (Linux; Android 8.0.0; moto g(6) play) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.101 Mobile Safari/
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36
+0 184
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 155
+Mozilla/5.0 (Linux; Android 10; SM-A705MN) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.101 Mobile Safari/537.36
+0 61
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 9; Nokia 3.1 Plus Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 C
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 10; SM-A715F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.81 Mobile Safari/537.36
+0 1
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/7.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .N
+0 1
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+0 1
+Go-http-client/1.1
+0 2
+Mozilla/5.0 (Linux; Android 9; LM-X540) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.127 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 9; SM-A107M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.101 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36
+0 2
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.93 Mobile S
+0 71
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.118 Mobile 
+0 1
+WhatsApp/2.20.197.20 A
+0 1
+Googlebot-Image/1.0
+0 21
+Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:28.0) Gecko/20100101 Firefox/28.0
+0 32
+Mozilla/5.0 (Linux; Android 10; MAR-LX3A Build/HUAWEIMAR-L03A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/
+0 1
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Chrome/84.0.41
+0 20
+Mozilla/5.0 (Linux; Android 8.1.0; DUB-LX3 Build/HUAWEIDUB-LX3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome
+0 4
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+0 23
+Mozilla/5.0 (Linux; Android 10; SM-G970F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.81 Mobile Safari/537.36
+0 64
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+0 93
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+0 2
+Mozilla/5.0 (Linux; Android 10; SM-A305G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Mobile Safari/537.36
+0 67
+Mozilla
+0 6
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+0 63
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+0 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 13_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Mobile/15E14
+0 118
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+0 4
+Mozilla/5.0 (iPhone; CPU iPhone OS 13_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/85.0.4183.92 Mobile/15E
+0 86
+Mozilla/5.0 (Linux; Android 10; SM-A315G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.120 Mobile Safari/537.36
+0 107
+facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+0 7
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.65 Safari/537.31
+0 1
+Mozilla/5.0 (Linux; Android 7.1.2; LM-X210) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.81 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+0 76
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36
+0 88
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36
+0 4
+Mozilla/5.0 (Linux; Android 5.1.1; SM-G925F Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.94 Mobile S
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+0 120
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36
+0 2
+Mozilla/5.0 (Linux; Android 10; POCO F2 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.101 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 9; moto g(8) power lite) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.81 Mobile Safari
+0 91
+Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Sa
+0 31
+Mozilla/5.0 (Windows NT 6.1; rv:57.0) Gecko/20100101 Firefox/57.0
+0 4
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36 Edg/85.0.5
+0 1
+Mozilla/5.0 (Linux; Android 10; motorola one hyper) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.81 Mobile Safari/
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36
+0 91
+Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Mobile/15E148 
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
+0 15
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36
+0 311
+Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Mobile/15E14
+0 1
+Mozilla/5.0 (compatible; Google-Site-Verification/1.0)
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+0 2
+Mozilla/5.0 (Linux; Android 9; JKM-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.81 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 10; JNY-LX2; HMSCore 5.0.2.301) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Huawe
+0 64
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+0 84
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0
+0 87
+Mozilla/5.0 (Linux; Android 9; moto g(6)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.143 Mobile Safari/537.36
+0 1
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Chrome/85.0.41
+0 46
+Mozilla/5.0 (Linux; Android 10; SM-G9600) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.81 Mobile Safari/537.36
+0 94
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.140 Mobile 
+0 13
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

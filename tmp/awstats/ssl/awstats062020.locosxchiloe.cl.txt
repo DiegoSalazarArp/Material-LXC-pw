@@ -1,0 +1,807 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202006 will be lost/reset.
+# Last config file used to build this data file was /home3/clo58957/tmp/awstats/ssl/awstats.locosxchiloe.cl.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2017                
+POS_TIME 2700                
+POS_VISITOR 18421               
+POS_DAY 26036               
+POS_DOMAIN 3629                
+POS_LOGIN 4156                
+POS_ROBOT 4311                
+POS_WORMS 4746                
+POS_EMAILSENDER 4877                
+POS_EMAILRECEIVER 5020                
+POS_SESSION 26887               
+POS_SIDER 27097               
+POS_FILETYPES 5155                
+POS_DOWNLOADS 5493                
+POS_OS 5560                
+POS_BROWSER 5814                
+POS_SCREENSIZE 7188                
+POS_UNKNOWNREFERER 7262                
+POS_UNKNOWNREFERERBROWSER 7948                
+POS_ORIGIN 8471                
+POS_SEREFERRALS 8617                
+POS_PAGEREFS 8823                
+POS_SEARCHWORDS 9387                
+POS_KEYWORDS 9539                
+POS_MISC 2363                
+POS_ERRORS 9598                
+POS_CLUSTER 4012                
+POS_SIDER_404 9753                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200701001909 101 26814 10617527560842
+FirstTime 20200601003537
+LastTime 20200630223837
+LastUpdate 20200701080246 101 0 100 0 0
+TotalVisits 214                 
+TotalUnique 148                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 202                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 35 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 61 400 29511861 108 172 4425425
+1 21 228 16323209 22 56 2351006
+2 16 169 12478888 26 54 2178408
+3 35 210 14589509 44 64 2022103
+4 61 384 32127354 114 150 3904127
+5 5 84 6519764 15 15 651932
+6 10 127 8904547 32 47 5928109
+7 15 95 7026645 21 30 1431476
+8 35 299 21895580 27 43 2004564
+9 85 404 35384378 39 81 2058843
+10 136 1029 81272188 120 170 4844079
+11 96 628 41545645 94 145 3576209
+12 45 443 38363181 18 55 1565077
+13 47 271 21122335 26 46 4477715
+14 121 688 52891780 70 346 14211563
+15 100 355 24049072 30 45 1509331
+16 181 1169 91732912 98 184 3623756
+17 101 917 67303387 64 184 10107871
+18 64 188 12520929 121 400 19309244
+19 148 961 87098567 81 112 2374862
+20 113 794 64211215 72 91 2116489
+21 101 703 51240232 51 72 2329951
+22 106 1002 82058073 44 75 2364352
+23 21 206 15289817 11 12 587017
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 21
+cl 1567 10416 814529563
+us 100 871 68964575
+jp 11 92 6933347
+mx 6 86 6611926
+ma 5 85 6621672
+ie 5 58 3520415
+gb 5 5 348334
+co 5 51 2790318
+ar 5 44 2471978
+fr 3 3 189283
+ro 3 3 116483
+ru 2 2 154445
+in 1 1 76356
+ca 1 1 0
+de 1 1 76158
+cn 1 30 1664746
+nl 1 1 76020
+at 1 1 76031
+it 1 1 11680
+pe 0 1 115114
+br 0 1 112601
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+Googlebot/ 547 27149947 20200630212523 52
+baidu 514 32231366 20200617170647 0
+facebookexternalhit/ 113 8966179 20200630141430 0
+no_user_agent 50 1951366 20200630002509 0
+bot[\s_+:,\.\;\/\\-] 18 1034917 20200630095601 0
+Googlebot\-Image/ 14 4664217 20200622073521 0
+Discordbot/ 2 156938 20200626172128 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+Unknown 748 36634085 0 0
+svg 15 2902946 0 0
+woff 255 57496340 0 0
+map 15 4863906 0 0
+js 2652 179338250 0 0
+woff2 190 8145696 0 0
+css 2680 95125185 0 0
+ttf 126 23858020 0 0
+gif 3 19701 0 0
+png 1357 129136835 0 0
+php 4 309178 0 0
+html 386 28352291 0 0
+jpg 3323 349278589 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 0 1 23
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 13
+winxp 3 1
+unix 91 11
+linux 124 23
+win10 4373 881
+macosx11 532 147
+ios_iphone 1054 85
+Unknown 118 17
+macosx 674 147
+macosx8 1 1
+macosx12 1 1
+win8.1 122 16
+linuxandroid 4517 378
+win7 145 16
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 60
+chrome80.0.3987.119 1 0
+chrome80.0.3987.87 51 5
+chrome81.0.4044.111 27 5
+chrome63.0.3239.111 43 5
+safari13.0.5 170 14
+firefox58.0 5 5
+chrome83.0.4103.106 1704 235
+firefox66.0 1 1
+chrome41.0.2228.0 1 1
+chrome71.0.3578.141 85 5
+chrome78.0.3904.96 86 7
+opera68.0.3618.125 1 0
+chrome26.0.1410.65 1 1
+chrome70.0.3538.77 85 6
+safari13.0.3 7 6
+firefox28.0 3 3
+chrome83.0.4103.61 1849 638
+chrome73.0.3683.90 2 2
+chrome75.0.3770.100 1 1
+chrome75.0.3770.143 164 11
+mozilla 2 1
+opera68.0.3618.173 92 11
+chrome41.0.2225.0 1 1
+safari13.0.4 1 0
+chrome41.0.2224.3 1 1
+chrome81.0.4044.138 761 53
+chrome75.0.3765.0 1 1
+chrome41.0.2227.0 1 1
+chrome81.0.4044.122 2 2
+safari13.1.1 342 18
+chrome83.0.4103.97 979 137
+chrome83.0.4103.96 314 43
+chrome58.0.3029.110 1 1
+chrome67.0.3396.99 3 3
+safari12.1 1 0
+chrome47.0.2526.83 1 1
+firefox11.0 2 0
+chrome83.0.4103.101 95 11
+Unknown 116 16
+chrome83.0.4103.83 1865 159
+chrome79.0.3945.130 20 20
+chrome80.0.3987.163 1 1
+firefox62.0 1 1
+safari13.1 92 6
+firefox77.0 711 84
+chrome74.0.3729.136 173 13
+chrome80.0.3987.132 166 8
+safari 175 13
+chrome83.0.4103.116 660 76
+edge18 92 11
+chrome81.0.4044.129 136 13
+chrome79.0.3945.93 167 10
+chrome54.0.2840.71 1 1
+firefox57.0 1 1
+safari12.1.2 94 10
+chrome78.0.3904.87 30 1
+chrome77.0.3865.116 85 6
+iphone 172 18
+chrome49.0.2623.75 19 9
+chrome81.0.4044.141 91 11
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 9
+\ 20200613042022
+Mozilla/5.0_(compatible;_Googlebot/2.1;__http://www.google.com/bot.html) 20200629075638
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20200611145351
+WhatsApp/2.20.51_i 20200615153424
+WhatsApp/2.20.193.9_A 20200626175618
+[FBAN/FB4A;FBAV/272.0.0.50.125;FBBV/216845599;FBDM/{density=2.75,width=1080,height=2068};FBLC/es_LA;FBRV/217936507;FBCR/H0M_NadaTeCuida_;FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/MI_8_Lite;FBSV/10;FBOP/1;FBCA/arm64-v8a:;] 20200601221242
+WhatsApp/2.20.189_A 20200616204501
+WhatsApp/2.20.61_i 20200625194844
+WhatsApp/2.20.172_A 20200608110212
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+WhatsApp/2.20.51_i 20200615153424
+WhatsApp/2.20.193.9_A 20200626175618
+\ 20200613042022
+WhatsApp/2.20.189_A 20200616204501
+[FBAN/FB4A;FBAV/272.0.0.50.125;FBBV/216845599;FBDM/{density=2.75,width=1080,height=2068};FBLC/es_LA;FBRV/217936507;FBCR/H0M_NadaTeCuida_;FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/MI_8_Lite;FBSV/10;FBOP/1;FBCA/arm64-v8a:;] 20200601221242
+WhatsApp/2.20.172_A 20200608110212
+WhatsApp/2.20.61_i 20200625194844
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 400 480
+From1 2 22
+From2 15 60
+From3 69 69
+From4 1238 11124
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+www_google_cl 2 14
+www_google_com_br 0 1
+www_google_com 13 45
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 9
+http://m.facebook.com 41 41
+https://webpay3gint.transbank.cl/webpayserver/auth_emisor.cgi 11 11
+https://webpay3gint.transbank.cl/webpayserver/dist/ 5 5
+https://www.facebook.com 4 4
+https://webpay3g.transbank.cl/webpayserver/auth_emisor.cgi 3 3
+https://webpay3g.transbank.cl/webpayserver/dist/ 2 2
+https://l.facebook.com 1 1
+https://webpay3g.transbank.cl/webpayserver/autenticacion.cgi 1 1
+https://m.facebook.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+206 8 677841
+302 124 0
+404 1170 20280674
+403 1 83600
+500 39 2745344
+401 14 626
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 159
+/2019/ 1 -
+/sito/ 1 -
+/site/index.php 5 https://locosxchiloe.cl/site/product
+/old-site/ 1 -
+/assets/images/product/35/principal.jpg 2 https://locosxchiloe.cl/
+/assets/css/blackgroundblack.jpg 1 https://locosxchiloe.cl/assets/css/style.css
+/site/assets/images/instagram_ceviche.png 1 https://locosxchiloe.cl/site/index
+/assets/js/jquery.countdown.min.js 1 https://locosxchiloe.cl/
+/plugins/images/favicon.png 13 https://locosxchiloe.cl/site/login
+/assets/css/images/ui-icons_555555_256x240.png 10 https://locosxchiloe.cl/assets/css/jquery-ui.css
+/shop-product-detail.html 2 -
+//assets/images/wp_lg.png 8 https://locosxchiloe.cl/
+/Telerik.Web.UI.WebResource.axd 1 -
+/assets/images/product/16/principal.jpg 4 https://locosxchiloe.cl/
+/assets/images/product/44/principal.jpg 12 https://locosxchiloe.cl/
+/2018/ 1 -
+/assets/images/product/11/principal.jpg 6 https://www.locosxchiloe.cl/
+/assets/images/product/12/principal.jpg 5 https://locosxchiloe.cl/
+/assets/css/magnific-popup.css 1 https://locosxchiloe.cl/
+/dev/ 1 -
+/wordpress/ 1 -
+/old/ 1 -
+/assets/fonts/Simple-Line-Icons.svg 1 https://locosxchiloe.cl/
+/site/assets/css/style.css 14 https://locosxchiloe.cl/site/pay2
+/assets/images/product/48/principal.jpg 4 https://locosxchiloe.cl/
+/assets/images/product/18/principal.jpg 6 https://locosxchiloe.cl/
+/assets/images/slider/7/banner.jpg 7 https://locosxchiloe.cl/
+/administrator/ 1 -
+/old-wp/ 1 -
+/assets/bootstrap/js/bootstrap.min.js 4 https://locosxchiloe.cl/
+/assets/owlcarousel/css/owl.theme.default.min.css 1 https://locosxchiloe.cl/
+/assets/css/slick-theme.css 1 https://locosxchiloe.cl/
+/assets/images/product/10/principal.jpg 3 https://locosxchiloe.cl/
+/images/editor/separator.gif 1 -
+/admin/ 1 http://www.locosxchiloe.cl/admin/
+/wp1/ 1 -
+/site/assets/images/instagram_salmon.png 1 https://locosxchiloe.cl/site/index
+/assets/images/product/20/principal.jpg 4 https://locosxchiloe.cl/
+/v2/ 1 -
+/assets/js/popper.min.js 4 https://locosxchiloe.cl/
+/assets/images/slider/5/banner.jpg 5 https://locosxchiloe.cl/
+/site/assets/images/jaibas.png 1 https://locosxchiloe.cl/site/index
+/main/ 1 -
+/site/assets/images/instagram_salmon-1.png 1 https://locosxchiloe.cl/site/index
+/assets/js/scripts.js 5 https://locosxchiloe.cl/
+/assets/images/product/29/principal.jpg 4 https://locosxchiloe.cl/
+/assets/images/product/46/principal.jpg 6 https://www.locosxchiloe.cl/
+/assets/fonts/Linearicons.woff 9 https://locosxchiloe.cl/assets/css/linearicons.css
+/site/ventas@locosxchiloe.cl 1 -
+/assets/images/product/42/principal.jpg 6 https://locosxchiloe.cl/
+/assets/images/product/38/principal.jpg 7 https://locosxchiloe.cl/
+/assets/fonts/Simple-Line-Icons.ttf 2 https://locosxchiloe.cl/assets/css/simple-line-icons.css
+/assets/js/isotope.min.js 3 https://locosxchiloe.cl/
+/assets/css/jquery-ui.css 2 https://www.locosxchiloe.cl/
+/v1/ 1 -
+/assets/css/images/ui-icons_444444_256x240.png 49 https://locosxchiloe.cl/assets/css/jquery-ui.css
+/assets/fonts/Simple-Line-Icons.woff 2 https://locosxchiloe.cl/assets/css/simple-line-icons.css
+/assets/images/product/27/principal.jpg 3 https://locosxchiloe.cl/
+/site/assets/images/salmon-ahumado.jpg 1 https://locosxchiloe.cl/site/index
+/.env 1 -
+/assets/images/instagram_ceviche.png 6 https://locosxchiloe.cl/
+/assets/images/product/15/principal.jpg 3 https://locosxchiloe.cl/
+/test/ 1 -
+/blog/ 1 -
+/wp2/ 1 -
+/assets/js/ajustes.js 2 https://www.locosxchiloe.cl/
+/assets/fonts/themify.woff 5 https://www.locosxchiloe.cl/assets/css/themify-icons.css
+/assets/js/sweetalert2.all.min.js 2 https://www.locosxchiloe.cl/
+/assets/bootstrap/css/bootstrap.min.css.map 1 -
+/bitrix/admin/ 1 http://www.locosxchiloe.cl/bitrix/admin/
+/assets/images/slider/6/banner.jpg 6 https://locosxchiloe.cl/
+/assets/images/product/22/principal.jpg 5 https://locosxchiloe.cl/
+/new/ 1 -
+/js/header-rollup-554.js 1 -
+/.well-known/assetlinks.json 6 -
+/assets/css/colors/default.css 14 https://locosxchiloe.cl/site/login
+/assets/images/product/21/principal.jpg 6 https://locosxchiloe.cl/
+/assets/fonts/ionicons.ttf 6 https://locosxchiloe.cl/assets/css/ionicons.min.css
+/2020/ 1 -
+/assets/fonts/ionicons.woff 2 https://www.locosxchiloe.cl/assets/css/ionicons.min.css
+/assets/js/jquery-ui.js 3 https://www.locosxchiloe.cl/
+/assets/js/popper.min.js.map 249 -
+/admin/view/javascript/common.js 1 -
+/site/assets/images/pescados-mariscos.jpg 1 https://locosxchiloe.cl/site/index
+/assets/images/product/23/principal.jpg 1 https://locosxchiloe.cl/
+/assets/images/product/14/principal.jpg 3 https://locosxchiloe.cl/
+/assets/fonts/Simple-Line-Icons.woff2 4 https://locosxchiloe.cl/assets/css/simple-line-icons.css
+/temp/ 1 -
+/bk/ 1 -
+/assets/css/ajax-loader.gif 50 https://locosxchiloe.cl/assets/css/slick-theme.css
+/assets/images/instagram_salmon.png 4 https://locosxchiloe.cl/
+/misc/ajax.js 1 -
+/site/cancelado 6 -
+/cms/ 1 -
+/vendor/phpunit/phpunit/build.xml 1 -
+/site/assets/images/locosxchiloe-plato.png 1 https://locosxchiloe.cl/site/index
+/assets/images/instagram_locosxchiloe.png 8 https://locosxchiloe.cl/
+/administrator/help/en-GB/toc.json 1 -
+/plugins/system/debug/debug.xml 1 -
+/wp-login.php 15 http://locosxchiloe.cl/wp-login.php
+/administrator/language/en-GB/install.xml 1 -
+/assets/owlcarousel/css/owl.theme.css 1 https://locosxchiloe.cl/
+/site/assets/images/Logo_locosxchiloe_redondo.png 14 https://locosxchiloe.cl/site/pay2
+/site/assets/images/blanco.jpg 14 https://locosxchiloe.cl/site/pay2
+/site/assets/css/colors/default.css 14 https://locosxchiloe.cl/site/pay2
+/site/assets/bootstrap/css/bootstrap.min.css 14 https://locosxchiloe.cl/site/pay2
+/ventas@locosxchiloe.cl 1 -
+/assets/images/product/26/principal.jpg 2 https://www.locosxchiloe.cl/
+/site/filter&categoria=promociones 3 -
+/assets/bootstrap/js/bootstrap.min.js.map 249 -
+/site/site/estadisticas 1 https://locosxchiloe.cl/site/estadisticas
+/site/assets/images/logo.png 6 https://locosxchiloe.cl/site/createprod
+/site/assets/css/login.css 14 https://locosxchiloe.cl/site/pay2
+/assets/js/waypoints.min.js 1 https://locosxchiloe.cl/
+/assets/css/style.css 2 https://www.locosxchiloe.cl/
+/assets/images/product/24/principal.jpg 1 https://locosxchiloe.cl/
+/site/activar&key=d22e94209f4ea3edbe643711b2f4466fbe49ce393c58eacb88d1e9389832a8fd86f91685fc2578a259a41733f05371838f0874a32660782bad73f449d29dd56b6c3d7d64ccd49bbbda6ed8371cd62e0b2b660d3f0679ca95c24c1d832c4daed6d6c30c0e 1 -
+/assets/fonts/Linearicons.ttf 8 https://locosxchiloe.cl/assets/css/linearicons.css
+/r=site/productos 4 -
+/assets/datatables/pdfmake.min.js.map 17 -
+/assets/datatables/DataTables-1.10.18/css/dataTables.bootstrap4.min.css 2 https://www.locosxchiloe.cl/
+/assets/datatables/pdfmake-0.1.36/pdfmake.min.js.map 17 -
+/assets/images/salmon-ahumado.jpg 3 https://www.locosxchiloe.cl/
+/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/assets/css/responsive.css 1 https://www.locosxchiloe.cl/
+/demo/ 1 -
+/tmp/ 1 -
+/assets/images/product/19/principal.jpg 4 https://locosxchiloe.cl/
+/assets/datatables/datatables.min.css 3 https://locosxchiloe.cl/
+/web/ 1 -
+/assets/css/slick.css 1 https://locosxchiloe.cl/
+/assets/8e70d2b3/yii.js 6 https://locosxchiloe.cl/
+/wp-includes/js/jquery/jquery.js 1 -
+/bak/ 1 -
+/assets/images/instagram_salmon-1.png 13 https://locosxchiloe.cl/
+/wp/ 1 -
+/wp-admin 2 -
+/assets/4d65e280/jquery.js 2 https://www.locosxchiloe.cl/
+//assets/images/logo_light.png 4 https://www.locosxchiloe.cl/
+/assets/js/slick.min.js 2 https://locosxchiloe.cl/
+/assets/js/Hoverparallax.min.js 1 https://locosxchiloe.cl/
+/assets/js/jquery.appear.js 2 https://locosxchiloe.cl/
+/assets/images/locosxchiloe-plato.png 4 https://locosxchiloe.cl/
+/assets/js/magnific-popup.min.js 4 https://locosxchiloe.cl/
+//assets/images/favicon.png 4 https://locosxchiloe.cl/
+/assets/images/pescados-mariscos.jpg 7 https://locosxchiloe.cl/
+/+/ 1 -
+/assets/images/product/13/principal.jpg 5 https://locosxchiloe.cl/
+//assets/images/logo_dark.png 3 https://www.locosxchiloe.cl/
+/site/assets/images/instagram_locosxchiloe.png 1 https://locosxchiloe.cl/site/index
+/assets/js/parallax.js 1 https://locosxchiloe.cl/
+/assets/fonts/themify.ttf 4 https://www.locosxchiloe.cl/assets/css/themify-icons.css
+/site/assets/css/animate.css 14 https://locosxchiloe.cl/site/pay2
+/assets/images/icons/wsp.png 7 https://locosxchiloe.cl/
+/backup/ 1 -
+/home/ 1 -
+/index.pho 1 -
+/admin/includes/general.js 1 -
+/assets/images/jaibas.png 4 https://locosxchiloe.cl/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 202
+201.239.103.56 448 970 67185174 20200619115855
+190.22.71.58 120 688 47871387 20200627222147
+181.43.48.69 96 612 54722760 20200614174843
+200.83.106.211 94 222 17447294 20200607160240
+190.22.87.137 86 448 36540663 20200629222410
+181.43.149.69 42 300 29280794 20200629221437
+190.93.236.32 41 387 28465697 20200626182411
+201.215.14.24 39 248 20797189 20200603115851
+191.125.183.135 22 140 14580315 20200609192715
+200.120.111.133 22 181 15688119 20200601100258
+190.161.81.18 22 102 7429609 20200624182937
+69.160.160.52 22 101 9486733 20200626172306
+181.203.10.173 20 179 13543031 20200601032600
+186.11.104.112 17 82 8136116 20200607095249
+200.83.39.96 16 95 7027165 20200604100231
+190.46.171.130 16 169 12478888 20200601022616
+191.125.136.220 15 19 602986 20200608212704
+191.125.55.180 13 92 6959655 20200601145128
+152.172.117.191 13 93 11496984 20200603122556
+179.9.229.111 13 140 9392595 20200626161147
+200.83.154.55 12 170 12757038 20200622164053
+190.162.15.204 11 92 8732002 20200601224757
+201.215.67.115 11 90 6696364 20200601181236
+164.163.88.1 11 92 6933347 20200625233053
+200.14.109.1 10 90 6803724 20200615150916
+186.11.11.226 1 1 78517 20200615153424
+152.172.221.85 5 52 2791389 20200612113331
+181.214.186.201 1 1 76356 20200602181833
+186.105.10.250 0 1 81306 
+190.20.204.27 5 78 6022466 20200601005243
+186.11.41.84 8 88 8604409 20200601040513
+200.120.38.7 6 62 3673703 20200617170133
+181.160.215.233 5 84 6520144 20200601161301
+191.115.87.116 5 84 6519764 20200601055132
+191.116.147.144 6 86 6620964 20200609221054
+200.89.33.88 0 1 81342 
+191.126.133.244 6 85 6592264 20200604112315
+138.197.170.220 1 1 0 20200617161346
+181.43.218.6 5 84 6304715 20200620212707
+201.219.234.193 0 1 75404 
+190.107.228.91 5 27 1621251 20200601235315
+181.43.26.30 2 2 34806 20200612203845
+186.11.8.79 5 54 2943248 20200611200420
+31.13.115.19 1 1 78469 20200629084625
+104.192.108.9 1 1 78469 20200614114214
+201.246.128.172 5 84 6520144 20200604084230
+146.0.77.40 1 1 76020 20200601085538
+181.43.53.156 1 1 78194 20200630223837
+190.217.219.20 0 1 114947 
+181.215.223.7 1 1 11673 20200602172125
+66.249.83.86 4 7 427574 20200630103948
+116.202.16.73 1 1 76356 20200603094349
+201.239.205.33 0 1 94396 
+181.72.152.246 7 87 6699433 20200610224851
+66.249.83.85 2 5 270959 20200629103454
+181.202.41.113 0 1 112601 
+200.119.227.19 0 1 81306 
+62.210.10.77 2 2 152772 20200602203357
+45.9.148.215 1 1 11673 20200601085204
+179.9.91.28 5 84 6519764 20200601120447
+191.119.0.7 1 1 78517 20200621125054
+52.34.76.65 5 51 2975160 20200601150124
+201.241.56.10 7 86 6627163 20200601005237
+201.241.24.130 0 1 98467 
+181.73.239.57 8 56 2974533 20200626213013
+152.172.218.95 5 84 6520144 20200602095020
+191.125.48.126 0 1 81306 
+181.42.37.248 4 85 6702454 20200630140412
+109.70.100.19 1 1 76031 20200601085934
+200.112.249.168 6 85 6591884 20200601104211
+191.119.89.188 0 1 79750 
+200.54.101.82 0 1 114947 
+31.13.115.5 0 2 165493 
+168.196.202.203 0 1 81306 
+45.232.32.224 0 2 183536 
+186.67.71.26 0 1 79750 
+168.196.203.81 5 33 2445840 20200604213634
+186.11.8.244 2 80 5521214 20200601095152
+167.250.54.116 6 82 5948383 20200601100313
+138.197.148.246 1 1 0 20200617161345
+185.220.101.134 1 1 75976 20200601085255
+190.162.74.128 8 88 6786264 20200620115913
+152.172.119.86 5 84 6519764 20200601070915
+186.85.117.121 0 1 104834 
+186.11.10.176 1 1 18413 20200607162941
+31.13.115.21 1 9 534998 20200629084643
+181.72.72.54 5 84 6519764 20200601045408
+190.101.21.137 0 1 81306 
+142.93.157.43 1 1 0 20200617161349
+66.249.83.72 0 1 38007 
+190.46.61.85 4 84 6411642 20200625200134
+152.174.175.2 4 70 5709661 20200604185303
+171.13.14.17 1 5 639319 20200614183544
+190.44.242.196 5 84 6519764 20200601041942
+171.13.14.75 0 7 493821 
+191.119.22.211 1 1 75976 20200601090940
+191.125.180.53 4 6 184054 20200607190133
+171.13.14.76 0 7 227308 
+191.126.169.22 1 6 382258 20200610113753
+66.249.83.87 2 5 270959 20200628012144
+179.6.203.170 0 1 115114 
+70.170.66.85 0 1 75404 
+179.9.5.198 5 84 6520144 20200603172038
+190.45.202.27 1 1 35643 20200619002554
+191.126.41.245 1 28 1580134 20200618211352
+186.11.87.219 2 2 165156 20200626175618
+66.249.83.70 1 1 78469 20200622102115
+31.13.115.11 2 18 987367 20200629084650
+66.249.85.38 0 1 112601 
+179.4.184.237 6 86 6618275 20200626014720
+91.217.76.11 1 1 78469 20200618132137
+186.35.56.200 0 1 81306 
+181.214.190.182 1 1 11673 20200602182419
+186.11.46.161 8 87 6649724 20200601010556
+74.125.210.40 3 30 2613467 20200612203811
+190.21.58.24 1 1 2692561 20200618213344
+179.8.138.16 8 82 6073434 20200603115520
+167.250.54.57 8 84 5954167 20200604104759
+181.43.90.142 10 89 7062915 20200603191229
+191.126.2.99 9 66 5377418 20200618211828
+186.155.16.106 0 1 99682 
+191.116.129.135 5 84 6519764 20200601063539
+31.13.115.23 0 2 89570 
+181.43.17.34 0 1 94396 
+173.252.127.22 0 1 23 
+190.101.214.64 0 2 225202 
+44.232.152.122 1 1 78469 20200621073027
+66.249.88.68 0 1 1972309 
+74.125.210.36 2 27 1417073 20200612203852
+190.189.174.55 5 43 2384783 20200608065654
+37.120.217.76 3 3 116483 20200606162947
+78.46.178.196 1 1 76158 20200604192151
+181.43.110.50 5 85 6539806 20200625214730
+186.11.43.166 5 84 6520144 20200602005030
+74.125.210.38 2 29 2586318 20200612203811
+190.160.221.2 0 1 119468 
+31.13.115.8 0 7 395369 
+79.137.69.239 1 1 11680 20200601090644
+76.87.38.199 0 1 75404 
+201.241.93.97 0 2 162612 
+201.219.234.105 5 84 6519764 20200601105044
+191.116.218.122 0 1 62953 
+23.127.91.229 5 84 6519764 20200601014816
+171.13.14.3 0 5 136939 
+45.235.36.94 5 83 6438136 20200601110726
+52.168.165.197 3 3 229068 20200602180138
+201.215.184.252 5 85 6539806 20200625234545
+181.226.75.31 7 86 6679340 20200601120213
+189.40.73.204 0 1 112601 
+200.54.3.178 5 83 6389609 20200601161033
+191.102.224.201 5 49 2585802 20200626212931
+186.11.58.15 0 1 79750 
+181.42.37.39 9 89 6856371 20200609164950
+200.113.138.235 0 1 115114 
+190.6.126.250 0 1 94396 
+191.126.9.165 2 2 34806 20200610091220
+179.9.159.227 7 104 8091095 20200601221208
+181.161.151.131 5 84 6519764 20200601104748
+190.47.185.64 0 1 81342 
+200.30.238.26 7 86 6672262 20200604210128
+45.33.15.94 6 85 6582957 20200613042016
+54.203.73.198 6 85 6582957 20200624142401
+186.11.73.133 0 1 81628 
+181.74.21.145 5 84 6519764 20200601003540
+179.57.13.138 7 86 6639172 20200602092453
+181.42.19.95 7 87 6699433 20200616231727
+201.186.202.144 0 1 91768 
+34.220.207.187 1 1 78469 20200625161848
+159.203.40.244 1 1 0 20200617161347
+31.13.115.24 0 11 380494 
+190.101.137.227 6 82 6073603 20200602104837
+31.13.115.12 1 6 707225 20200629084643
+34.223.106.233 1 1 78469 20200625073758
+190.107.228.162 0 1 93541 
+152.172.120.193 9 91 9611516 20200625205414
+190.162.95.44 7 87 6690395 20200625194844
+191.126.58.7 7 56 2930817 20200616130107
+66.102.8.64 1 1 905 20200612203854
+163.172.70.242 2 2 112927 20200602203514
+74.125.151.40 1 1 78469 20200611145351
+181.43.10.241 10 160 11909792 20200601161652
+51.89.201.9 3 3 235407 20200628160104
+190.22.78.24 10 106 8296908 20200628181423
+201.239.215.136 0 1 112601 
+62.210.5.253 1 1 36511 20200602193928
+201.165.209.6 6 86 6611926 20200625194901
+168.196.203.216 1 57 5146070 20200604214255
+190.161.227.47 5 79 5899861 20200601140535
+31.13.115.20 0 2 181430 
+167.250.54.169 6 85 6592264 20200604102943
+200.86.188.95 0 1 81306 
+201.215.123.98 10 171 13338497 20200620223228
+181.73.112.170 5 85 6539806 20200625195305
+181.162.13.115 0 1 81306 
+190.102.251.222 5 85 6539806 20200625195943
+201.239.88.94 0 1 114884 
+152.174.209.132 0 1 81342 
+171.13.14.4 0 6 167359 
+186.79.252.238 0 1 114947 
+181.214.178.7 1 1 11673 20200602182335
+152.171.96.167 0 1 87195 
+38.145.95.33 1 1 76416 20200602182526
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20200601 283 3189 247063895 43
+20200602 36 375 29456626 14
+20200603 38 376 34270751 6
+20200604 180 930 78916784 15
+20200605 188 291 11183231 5
+20200606 35 49 1220827 8
+20200607 186 425 32119789 9
+20200608 33 97 3688361 7
+20200609 135 881 83289464 10
+20200610 16 162 13493436 5
+20200611 9 110 7561898 3
+20200612 15 143 9643176 6
+20200613 6 87 6738111 1
+20200614 7 116 8494813 4
+20200615 11 96 7270418 2
+20200616 14 147 10083167 2
+20200617 10 69 3951635 5
+20200618 19 173 14816845 5
+20200619 17 147 10001482 6
+20200620 23 343 26429476 3
+20200621 2 3 272100 2
+20200622 22 270 23854469 3
+20200623 1 4 269430 1
+20200624 28 191 14369443 2
+20200625 207 1723 132391551 16
+20200626 76 527 39293200 12
+20200627 6 30 2436295 2
+20200628 15 114 8846573 6
+20200629 100 597 47055633 8
+20200630 6 89 6978143 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+2mn-5mn 9
+30s-2mn 25
+5mn-15mn 9
+30mn-1h 12
+1h+ 10
+15mn-30mn 7
+0s-30s 142
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 43
+/ 371 28094067 164 79
+/assets/fonts/themify.woff 126 7013500 2 1
+/assets/fonts/ionicons.ttf 124 23374992 1 7
+/assets/fonts/Linearicons.woff 124 50160480 1 10
+/assets/fonts/Simple-Line-Icons.woff2 102 1755216 0 43
+/site/trsctn 94 2506661 6 8
+/site/product 85 2849254 13 11
+/site/cart 83 5202169 1 2
+/site/buy 69 1785910 0 3
+/assets/fonts/fa-brands-400.woff2 68 4904160 1 8
+/site/render 50 891716 1 0
+/site/filter 48 1765780 3 6
+/site/pay2 47 556388 0 2
+/site/gestion 46 1762362 2 1
+/site/estadisticas 43 2064422 3 11
+/site/productos 38 3272577 4 1
+/site/promociones 27 799027 4 6
+/assets/fonts/fa-solid-900.woff2 20 1486320 0 0
+/site/cbuy 16 404319 0 4
+/site/pagado 15 269502 0 0
+/assets/54c5a5a4/css/bootstrap.min.css.map 15 4863906 0 0
+/site/contact 14 273292 1 2
+/cpanel 13 440713 3 1
+/unprotected/loader.html 12 10860 1 3
+/site/login 12 48092 0 1
+/site/terminos 4 10770244 3 2
+/assets/fonts/Simple-Line-Icons.woff 2 118648 0 1
+/site/slider 4 88644 0 0
+/site/cat 2 41372 0 0
+/site/cpay 2 36252 0 0
+/site/editprod 8 176325 0 0
+/site/nosotros 11 202936 0 0
+/site/cancelado 7 125332 0 0
+/index.php 4 309178 0 0
+/site/ 1 78469 0 1
+/site/index 1 78329 0 0
+/assets/fonts/ionicons.woff 3 203712 0 0
+/site/productos/ 2 168895 0 0
+/assets/fonts/themify.ttf 1 78584 0 0
+/site/variantes 3 86601 0 0
+/assets/fonts/Linearicons.ttf 1 404444 0 0
+/site/createprod 2 41364 0 0
+/site/register 4 94502 0 0
+END_SIDER

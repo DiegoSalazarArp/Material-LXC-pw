@@ -1,0 +1,3304 @@
+[05-Jun-2020 23:24:33 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 462. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 462. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; PHPSESSID=1ee584fff1aafb0b2d1adc36fa8cfaf2; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtrUMOf6mTZCRvsk03MJygAAABo',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtrUMOf6mTZCRvsk03MJygAAABo',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '65187',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591399472.7853128910064697265625,
+    'REQUEST_TIME' => 1591399472,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[05-Jun-2020 23:34:40 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 462. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 462. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; PHPSESSID=1ee584fff1aafb0b2d1adc36fa8cfaf2; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtrWjyjnavEGyMyOpWpkigAAAC0',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtrWjyjnavEGyMyOpWpkigAAAC0',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '65248',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591400080.32703304290771484375,
+    'REQUEST_TIME' => 1591400080,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 00:01:39 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 462. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 462. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; PHPSESSID=1ee584fff1aafb0b2d1adc36fa8cfaf2; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'Xtrc4nhoxaMIZ-deQPbXxgAAABU',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'Xtrc4nhoxaMIZ-deQPbXxgAAABU',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '65361',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591401699.46706390380859375,
+    'REQUEST_TIME' => 1591401699,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 00:01:42 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 462. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 462. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c; PHPSESSID=393516d1919848bf8552524b4f95141d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'Xtrc5nhoxaMIZ-deQPbXxwAAABU',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'Xtrc5nhoxaMIZ-deQPbXxwAAABU',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '65361',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591401702.171677112579345703125,
+    'REQUEST_TIME' => 1591401702,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 00:07:30 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 462. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 462. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c; PHPSESSID=393516d1919848bf8552524b4f95141d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtreQejK8T2i-K4voZsNwQAAAAo',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtreQejK8T2i-K4voZsNwQAAAAo',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '65396',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591402050.19093799591064453125,
+    'REQUEST_TIME' => 1591402050,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 00:07:33 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 462. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 462. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c; PHPSESSID=393516d1919848bf8552524b4f95141d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtreRQgY15fX2xXXePAZqAAAACE',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtreRQgY15fX2xXXePAZqAAAACE',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '65398',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591402053.384582042694091796875,
+    'REQUEST_TIME' => 1591402053,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 00:10:43 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 462. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 462. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c; PHPSESSID=393516d1919848bf8552524b4f95141d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtrfAi9JThFQupdnnzj7ZQAAABs',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtrfAi9JThFQupdnnzj7ZQAAABs',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '65402',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591402243.113090038299560546875,
+    'REQUEST_TIME' => 1591402243,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 00:30:43 UTC] PHP Fatal error:  Cannot declare class app\controllers\SiteController, because the name is already in use in /home3/clo58957/vendor/transbank/transbank-sdk/lib/webpay/Configuration.php on line 0
+[06-Jun-2020 00:30:44 UTC] PHP Fatal error:  Cannot declare class app\controllers\SiteController, because the name is already in use in /home3/clo58957/vendor/transbank/transbank-sdk/lib/webpay/Configuration.php on line 0
+[06-Jun-2020 00:31:08 UTC] PHP Fatal error:  Cannot declare class app\controllers\SiteController, because the name is already in use in /home3/clo58957/vendor/transbank/transbank-sdk/lib/webpay/Configuration.php on line 0
+[06-Jun-2020 00:31:33 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c; PHPSESSID=393516d1919848bf8552524b4f95141d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'Xtrj5R0qqxj3mQpkTRhaggAAADM',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'Xtrj5R0qqxj3mQpkTRhaggAAADM',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '65492',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591403493.52880096435546875,
+    'REQUEST_TIME' => 1591403493,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 00:35:20 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c; PHPSESSID=393516d1919848bf8552524b4f95141d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtrkyJcrGJwhnXbXK6wU7wAAACA',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtrkyJcrGJwhnXbXK6wU7wAAACA',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '65506',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591403720.574388980865478515625,
+    'REQUEST_TIME' => 1591403720,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 00:35:56 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c; PHPSESSID=393516d1919848bf8552524b4f95141d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'Xtrk7Oj@wCQExgV9zcUlLwAAABs',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'Xtrk7Oj@wCQExgV9zcUlLwAAABs',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '65514',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591403756.822105884552001953125,
+    'REQUEST_TIME' => 1591403756,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 00:41:00 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c; PHPSESSID=393516d1919848bf8552524b4f95141d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtrmHA-WsJidVXdBGP46iQAAAA4',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtrmHA-WsJidVXdBGP46iQAAAA4',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '65530',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591404060.879005908966064453125,
+    'REQUEST_TIME' => 1591404060,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 00:41:08 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c; PHPSESSID=393516d1919848bf8552524b4f95141d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtrmJCjyxSEDiYsSxoLUjQAAACc',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtrmJCjyxSEDiYsSxoLUjQAAACc',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '65529',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591404068.064363002777099609375,
+    'REQUEST_TIME' => 1591404068,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 00:41:24 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c; PHPSESSID=393516d1919848bf8552524b4f95141d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtrmNO6SLb8tqkQ@X8bWqAAAAAc',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtrmNO6SLb8tqkQ@X8bWqAAAAAc',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '65534',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591404084.4950869083404541015625,
+    'REQUEST_TIME' => 1591404084,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 00:41:31 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c; PHPSESSID=393516d1919848bf8552524b4f95141d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_PRAGMA' => 'no-cache',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'no-cache',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtrmO@soAesvxeWV7FdTyAAAAC0',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtrmO@soAesvxeWV7FdTyAAAAC0',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '49155',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591404091.767301082611083984375,
+    'REQUEST_TIME' => 1591404091,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 00:42:00 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c; PHPSESSID=393516d1919848bf8552524b4f95141d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtrmWCguJP1@wGgCZkG95gAAADI',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtrmWCguJP1@wGgCZkG95gAAADI',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '49157',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591404120.54475498199462890625,
+    'REQUEST_TIME' => 1591404120,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 00:42:13 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c; PHPSESSID=393516d1919848bf8552524b4f95141d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtrmZQnFo51Sz7XKgAVysAAAABw',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtrmZQnFo51Sz7XKgAVysAAAABw',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '49159',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591404133.9750320911407470703125,
+    'REQUEST_TIME' => 1591404133,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 00:51:44 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c; PHPSESSID=393516d1919848bf8552524b4f95141d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'Xtron4Yqpqe8LuXv8b@8JwAAADo',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'Xtron4Yqpqe8LuXv8b@8JwAAADo',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '49193',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591404704.4924070835113525390625,
+    'REQUEST_TIME' => 1591404704,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 00:53:25 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c; PHPSESSID=393516d1919848bf8552524b4f95141d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtrpBIYBzfQinLkFcK-yXwAAADk',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtrpBIYBzfQinLkFcK-yXwAAADk',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '49200',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591404804.7495849132537841796875,
+    'REQUEST_TIME' => 1591404804,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 00:56:39 UTC] PHP Fatal error:  Cannot declare class Transbank\Webpay\Webpay, because the name is already in use in /home3/clo58957/vendor/transbank/transbank-sdk/lib/webpay/Configuration.php on line 4
+[06-Jun-2020 00:57:25 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c; PHPSESSID=393516d1919848bf8552524b4f95141d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'Xtrp9I1cq771NMRObP6IfgAAAFc',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'Xtrp9I1cq771NMRObP6IfgAAAFc',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '49215',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591405044.9453220367431640625,
+    'REQUEST_TIME' => 1591405044,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 01:15:10 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c; PHPSESSID=393516d1919848bf8552524b4f95141d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtruHVG8o6iuS0@vhMK3zgAAACI',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtruHVG8o6iuS0@vhMK3zgAAACI',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '49306',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591406109.7380030155181884765625,
+    'REQUEST_TIME' => 1591406109,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 01:20:47 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c; PHPSESSID=393516d1919848bf8552524b4f95141d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtrvbgXRKTuAUs6osZlGcQAAACc',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtrvbgXRKTuAUs6osZlGcQAAACc',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '49334',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591406447.15452289581298828125,
+    'REQUEST_TIME' => 1591406447,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 01:21:43 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c; PHPSESSID=393516d1919848bf8552524b4f95141d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtrvptTUqawF1hXC0yTBugAAAEE',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtrvptTUqawF1hXC0yTBugAAAEE',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '49342',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591406503.1447179317474365234375,
+    'REQUEST_TIME' => 1591406503,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 01:23:56 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c; PHPSESSID=393516d1919848bf8552524b4f95141d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtrwKxDpZaogpx-YtsPQxwAAAFI',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtrwKxDpZaogpx-YtsPQxwAAAFI',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '49351',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591406635.96580410003662109375,
+    'REQUEST_TIME' => 1591406635,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 01:24:39 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c; PHPSESSID=393516d1919848bf8552524b4f95141d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtrwVlgT23JqYmbWQTNx0gAAAEQ',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtrwVlgT23JqYmbWQTNx0gAAAEQ',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '49354',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591406678.970202922821044921875,
+    'REQUEST_TIME' => 1591406678,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 01:24:55 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c; PHPSESSID=393516d1919848bf8552524b4f95141d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtrwZyZEU5X224GEF@cVYAAAABk',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtrwZyZEU5X224GEF@cVYAAAABk',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '49357',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591406695.712932109832763671875,
+    'REQUEST_TIME' => 1591406695,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 01:37:20 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c; PHPSESSID=393516d1919848bf8552524b4f95141d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_PRAGMA' => 'no-cache',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'no-cache',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtrzT5g2qoigLcuywnb7XAAAABU',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtrzT5g2qoigLcuywnb7XAAAABU',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '49395',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591407440.433895111083984375,
+    'REQUEST_TIME' => 1591407440,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 01:38:23 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c; PHPSESSID=393516d1919848bf8552524b4f95141d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtrzjqQN6XiD-JcJYsV9qwAAAEw',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtrzjqQN6XiD-JcJYsV9qwAAAEw',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '49399',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591407503.511887073516845703125,
+    'REQUEST_TIME' => 1591407503,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 02:12:27 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c; PHPSESSID=393516d1919848bf8552524b4f95141d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'Xtr7igKWTSF5OQOp6seLGwAAAC0',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'Xtr7igKWTSF5OQOp6seLGwAAAC0',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '49452',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591409547.4315888881683349609375,
+    'REQUEST_TIME' => 1591409547,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 04:20:28 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c; PHPSESSID=393516d1919848bf8552524b4f95141d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtsZio8NmRzK7Ut4iLb@3gAAAC8',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtsZio8NmRzK7Ut4iLb@3gAAAC8',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '49969',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591417227.402265071868896484375,
+    'REQUEST_TIME' => 1591417227,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 17:03:04 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c; PHPSESSID=bb8a1502ac84c408609b2f69e84c83f5',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtvMR0iZCwq-iEGHtzS7mgAAAB4',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtvMR0iZCwq-iEGHtzS7mgAAAB4',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '50031',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591462984.112185001373291015625,
+    'REQUEST_TIME' => 1591462984,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 17:03:24 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3arg075n_afxI07Tdb%2c7388eee3483886105089fe091011381c; PHPSESSID=1fa77f2aa7c931d4cd43666545c2ea2f',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtvMXF2tzeg1TYpQpjXzbQAAAGA',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtvMXF2tzeg1TYpQpjXzbQAAAGA',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '50045',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591463004.4145500659942626953125,
+    'REQUEST_TIME' => 1591463004,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 17:12:16 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; PHPSESSID=1fa77f2aa7c931d4cd43666545c2ea2f; cpsession=clo58957%3aE9vr4hejNXYh9_Nd%2c078659104658d70a801bcee3a8dda39d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtvObxLR4YGf7NlnFUT@9QAAAB8',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtvObxLR4YGf7NlnFUT@9QAAAB8',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '50322',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591463536.2443931102752685546875,
+    'REQUEST_TIME' => 1591463536,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 17:14:12 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 463. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; PHPSESSID=1fa77f2aa7c931d4cd43666545c2ea2f; cpsession=clo58957%3aE9vr4hejNXYh9_Nd%2c078659104658d70a801bcee3a8dda39d; _gat_gtag_UA_166773481_1=1',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_REFERER' => 'https://locosxchiloe.cl/site/buy',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'same-origin',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtvO5GLDrB9kGYt4TZ1adQAAADc',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtvO5GLDrB9kGYt4TZ1adQAAADc',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '50353',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=236002&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=236002&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=236002&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591463652.0723779201507568359375,
+    'REQUEST_TIME' => 1591463652,
+    'argv' => [
+        'or=236002&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 17:17:22 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 464. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 464. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; PHPSESSID=1fa77f2aa7c931d4cd43666545c2ea2f; cpsession=clo58957%3aE9vr4hejNXYh9_Nd%2c078659104658d70a801bcee3a8dda39d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtvPoQqIUqi-Gbz0DTuWsQAAAAI',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtvPoQqIUqi-Gbz0DTuWsQAAAAI',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '50401',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=236002&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=236002&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=236002&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591463842.13385105133056640625,
+    'REQUEST_TIME' => 1591463842,
+    'argv' => [
+        'or=236002&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 17:17:25 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 464. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 464. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; PHPSESSID=1fa77f2aa7c931d4cd43666545c2ea2f; cpsession=clo58957%3aE9vr4hejNXYh9_Nd%2c078659104658d70a801bcee3a8dda39d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtvPpQqIUqi-Gbz0DTuWsgAAAAI',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtvPpQqIUqi-Gbz0DTuWsgAAAAI',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '50401',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=236002&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=236002&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=236002&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591463845.4417591094970703125,
+    'REQUEST_TIME' => 1591463845,
+    'argv' => [
+        'or=236002&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 19:32:37 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 464. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 464. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; PHPSESSID=1fa77f2aa7c931d4cd43666545c2ea2f; cpsession=clo58957%3aE9vr4hejNXYh9_Nd%2c078659104658d70a801bcee3a8dda39d',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtvvVAS8X@pDh0Hvdwp4GAAAAAM',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtvvVAS8X@pDh0Hvdwp4GAAAAAM',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '50661',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591471957.18579196929931640625,
+    'REQUEST_TIME' => 1591471957,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 19:32:42 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 464. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 464. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3aE9vr4hejNXYh9_Nd%2c078659104658d70a801bcee3a8dda39d; PHPSESSID=1cad541854338c6272397741d1966bdf',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtvvWmeuhCeEL@-d7dGVmAAAAAI',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtvvWmeuhCeEL@-d7dGVmAAAAAI',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '50659',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591471962.5774629116058349609375,
+    'REQUEST_TIME' => 1591471962,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 19:32:45 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 464. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 464. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3aE9vr4hejNXYh9_Nd%2c078659104658d70a801bcee3a8dda39d; PHPSESSID=1cad541854338c6272397741d1966bdf',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtvvXWeuhCeEL@-d7dGVmQAAAAI',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtvvXWeuhCeEL@-d7dGVmQAAAAI',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '50659',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591471965.7022631168365478515625,
+    'REQUEST_TIME' => 1591471965,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 20:45:29 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 464. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 464. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3aE9vr4hejNXYh9_Nd%2c078659104658d70a801bcee3a8dda39d; PHPSESSID=1cad541854338c6272397741d1966bdf',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtwAaM9jMhBfmOyxlE8cQgAAADY',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtwAaM9jMhBfmOyxlE8cQgAAADY',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '50719',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591476329.2331390380859375,
+    'REQUEST_TIME' => 1591476329,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 22:05:18 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 464. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 464. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3aE9vr4hejNXYh9_Nd%2c078659104658d70a801bcee3a8dda39d; PHPSESSID=63672f9be3aa92a0bc38cb3b76a36459',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtwTHdmUvX2VgDEZGgdsMwAAAAE',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtwTHdmUvX2VgDEZGgdsMwAAAAE',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '51298',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591481118.189219951629638671875,
+    'REQUEST_TIME' => 1591481118,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 22:06:16 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 464. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 464. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3aE9vr4hejNXYh9_Nd%2c078659104658d70a801bcee3a8dda39d; PHPSESSID=a882a428c1d256d862df824d80199c89',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtwTVyB0CYftBIQFH71DqQAAABk',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtwTVyB0CYftBIQFH71DqQAAABk',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '51303',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591481176.146996021270751953125,
+    'REQUEST_TIME' => 1591481176,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 22:06:56 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 464. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 464. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3aE9vr4hejNXYh9_Nd%2c078659104658d70a801bcee3a8dda39d; PHPSESSID=a882a428c1d256d862df824d80199c89',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtwTf@Y3oARh12oJdPg6CAAAAAc',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtwTf@Y3oARh12oJdPg6CAAAAAc',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '51310',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591481216.055347919464111328125,
+    'REQUEST_TIME' => 1591481216,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 22:07:00 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 464. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 464. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3aE9vr4hejNXYh9_Nd%2c078659104658d70a801bcee3a8dda39d; PHPSESSID=a882a428c1d256d862df824d80199c89',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtwThOY3oARh12oJdPg6CQAAAAc',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtwThOY3oARh12oJdPg6CQAAAAc',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '51310',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591481220.6127951145172119140625,
+    'REQUEST_TIME' => 1591481220,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]
+[06-Jun-2020 22:15:01 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 464. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home3/clo58957/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home3/clo58957/controllers/SiteController.php on line 464. in /home3/clo58957/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home3/clo58957/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home3/clo58957/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home3/clo58957/public_html/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_ga=GA1.2.1426907335.1589693411; roundcube_cookies=enabled; _gid=GA1.2.1150211659.1591292593; _identity=20206a298f5f9a3ff1b0d0341ef8ee1308a9ad9b2069f44b7ff81eb58f974b27a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A214%3A%22%5B1%2C%22464c87b5d2ecfc6762c64b2c58f58c2f1c5b643adbb281320eeb00bc2378a50bda7dc5237659213d1d58b60c9dd94e198200a6b71142457e5df42907bb2aa96a3591e20f4f760744602e5e42c37f39285b7648d735fc2e137dd6c21107d922b6532a6d7b%22%2C2592000%5D%22%3B%7D; timezone=America/Santiago; cpsession=clo58957%3aE9vr4hejNXYh9_Nd%2c078659104658d70a801bcee3a8dda39d; PHPSESSID=a882a428c1d256d862df824d80199c89',
+    'HTTP_HOST' => 'locosxchiloe.cl',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XtwVZIRE02kHy7lf8IXxRwAAAC4',
+    'REDIRECT_SCRIPT_URL' => '/site/trsctn',
+    'REDIRECT_SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XtwVZIRE02kHy7lf8IXxRwAAAC4',
+    'SCRIPT_URL' => '/site/trsctn',
+    'SCRIPT_URI' => 'https://locosxchiloe.cl/site/trsctn',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'locosxchiloe.cl',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'locosxchiloe.cl',
+    'SERVER_ADDR' => '190.107.177.239',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '201.239.103.56',
+    'DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home3/clo58957/public_html',
+    'SERVER_ADMIN' => 'webmaster@locosxchiloe.cl',
+    'SCRIPT_FILENAME' => '/home3/clo58957/public_html/index.php',
+    'REMOTE_PORT' => '51343',
+    'REDIRECT_URL' => '/site/trsctn',
+    'REDIRECT_QUERY_STRING' => 'or=7702400&amo=10',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'or=7702400&amo=10',
+    'REQUEST_URI' => '/site/trsctn?or=7702400&amo=10',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1591481700.9400310516357421875,
+    'REQUEST_TIME' => 1591481700,
+    'argv' => [
+        'or=7702400&amo=10',
+    ],
+    'argc' => 1,
+]

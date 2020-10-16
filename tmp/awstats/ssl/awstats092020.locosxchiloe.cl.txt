@@ -1,0 +1,567 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202009 will be lost/reset.
+# Last config file used to build this data file was /home3/clo58957/tmp/awstats/ssl/awstats.locosxchiloe.cl.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2017                
+POS_TIME 2695                
+POS_VISITOR 11158               
+POS_DAY 14542               
+POS_DOMAIN 3505                
+POS_LOGIN 3897                
+POS_ROBOT 4052                
+POS_WORMS 4434                
+POS_EMAILSENDER 4565                
+POS_EMAILRECEIVER 4708                
+POS_SESSION 15251               
+POS_SIDER 15447               
+POS_FILETYPES 4843                
+POS_DOWNLOADS 5179                
+POS_OS 5227                
+POS_BROWSER 5471                
+POS_SCREENSIZE 6469                
+POS_UNKNOWNREFERER 6543                
+POS_UNKNOWNREFERERBROWSER 6942                
+POS_ORIGIN 7100                
+POS_SEREFERRALS 7239                
+POS_PAGEREFS 7453                
+POS_SEARCHWORDS 7601                
+POS_KEYWORDS 7753                
+POS_MISC 2359                
+POS_ERRORS 7812                
+POS_CLUSTER 3753                
+POS_SIDER_404 7938                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200929030802 44 9176 10051904980566
+FirstTime 20200901004814
+LastTime 20200929030801
+LastUpdate 20200929093331 44 0 44 0 0
+TotalVisits 67                  
+TotalUnique 52                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 97                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 5 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 21 166 20547274 28 50 1878617
+1 33 344 30384834 35 47 1727014
+2 0 0 0 30 42 1318814
+3 4 4 320084 30 39 843862
+4 0 0 0 8 23 974810
+5 4 5 401438 35 51 1578433
+6 0 0 0 10 38 1485140
+7 2 2 80021 9 26 871064
+8 2 2 80021 6 11 304220
+9 1 3 293030 8 31 1297844
+10 9 91 8874837 32 35 721557
+11 43 321 42678516 14 67 3266293
+12 16 163 15676797 12 28 1398309
+13 2 3 247333 40 52 1616626
+14 14 97 9569797 14 21 751842
+15 30 164 13388129 15 24 835764
+16 17 186 19249407 6 7 448089
+17 41 275 30486209 18 23 544215
+18 21 160 20605452 9 11 453785
+19 8 126 17490603 15 28 1783971
+20 2 6 527017 34 34 870816
+21 23 179 16644345 7 32 1065691
+22 15 99 16820612 12 30 1718462
+23 4 9 568614 11 13 620480
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 12
+cl 225 2083 233456158
+gb 34 183 19523024
+us 30 109 10085521
+de 14 14 800210
+it 3 3 120004
+ro 3 3 120004
+ca 1 1 0
+tr 1 1 80021
+pe 1 2 141649
+ar 0 1 81306
+ma 0 1 94396
+co 0 4 432077
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+Googlebot/ 393 18610062 20200929020710 44
+no_user_agent 54 2160567 20200929023239 0
+Googlebot\-Image/ 21 0 20200926014122 0
+bot[\s_+:,\.\;\/\\-] 17 1186701 20200927090414 0
+facebookexternalhit/ 7 572182 20200928181114 0
+unknown 2 46 20200917224412 2
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 14
+xml 1 6629 0 0
+ttf 28 5494160 0 0
+png 250 34575797 0 0
+woff2 42 1996692 0 0
+html 88 6404901 0 0
+js 549 41830554 0 0
+map 6 3242604 0 0
+svg 1 179404 0 0
+css 563 21051067 0 0
+woff 54 12477096 0 0
+php 1 80021 0 0
+gif 2 13134 0 0
+Unknown 92 11245921 0 0
+jpg 728 126336390 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 13
+Unknown 184 33
+macosx12 1 0
+winxp 77 7
+ios_iphone 192 18
+win10 670 75
+macosx8 1 1
+win7 18 12
+macosx 302 65
+macosx9 2 2
+linux 185 25
+linuxandroid 680 64
+macosx11 91 10
+win8.1 2 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 43
+chrome63.0.3239.84 1 1
+chrome85.0.4183.83 247 18
+firefox28.0 10 10
+chrome35.0.1916.47 2 2
+chrome76.0.3809.132 1 0
+chrome40.0.2214.85 4 4
+chrome79.0.3945.136 89 7
+safari 75 3
+chrome67.0.3396.79 3 3
+chrome84.0.4147.105 1 1
+chrome85.0.4183.120 97 6
+chrome36.0.1985.67 1 1
+chrome49.0.2623.112 76 6
+chrome84.0.4147.135 506 70
+netscape 1 1
+chrome84.0.4147.89 2 2
+safari13.1.1 1 0
+chrome74.0.3729.157 4 0
+chrome84.0.4147.125 160 14
+chrome73.0.3683.90 8 8
+chrome26.0.1410.65 1 1
+chrome51.0.2704.106 1 0
+mozilla 179 30
+chrome79.0.3945.88 1 1
+chrome85.0.4183.102 212 14
+chrome41.0.2227.0 2 2
+chrome85.0.4183.101 64 5
+opera54.0.2952.64 3 3
+Unknown 4 2
+msie7.0 1 0
+chrome75.0.3770.143 1 0
+firefox80.0 87 7
+chrome85.0.4183.81 252 25
+chrome45.0.2454.94 1 1
+chrome51.0.2704.84 1 1
+chrome85.0.4183.127 2 0
+chrome78.0.3904.108 63 7
+safari13.1.2 116 15
+firefox57.0 4 4
+chrome83.0.4103.97 2 2
+chrome51.0.2704.103 2 2
+chrome85.0.4183.121 116 32
+chrome41.0.2228.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+WhatsApp/2.20.198.15_A 20200906215124
+Mozilla 20200929030800
+WhatsApp/2.20.197.20_A 20200901211655
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20200903032319
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20200910155857
+Mozilla/5.0_(compatible;_Dataprovider.com) 20200908175423
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+WhatsApp/2.20.198.15_A 20200906215124
+WhatsApp/2.20.197.20_A 20200901211655
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 93 99
+From1 0 0
+From2 13 74
+From3 0 0
+From4 206 2232
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+live 0 1
+www_google_cl 0 7
+www_google_com_co 0 1
+www_google_com 13 65
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+404 230 4105992
+206 12 1738473
+302 19 0
+401 3 105
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 88
+/ups.php 1 -
+/test/wp-includes/wlwmanifest.xml 1 -
+/v1/ 4 -
+/bk/ 4 -
+/en/wp-includes/wlwmanifest.xml 1 -
+/2019/wp-includes/wlwmanifest.xml 1 -
+/assets/js/popper.min.js.map 5 -
+/wp/ 4 -
+/main/wp-includes/wlwmanifest.xml 1 -
+/assets/bootstrap/js/bootstrap.min.js.map 5 -
+/web/ 4 -
+/administrator/ 2 -
+/2018/ 4 -
+/misc/ajax.js 2 -
+/plugins/images/favicon.png 4 https://locosxchiloe.cl/site/login
+/2020/ 4 -
+/wp1/ 4 -
+/old-site/ 4 -
+/wp-includes/js/jquery/jquery.js 2 -
+/wordpress/wp-includes/wlwmanifest.xml 1 -
+/admin/view/javascript/common.js 2 -
+/v2/ 4 -
+/assets/images/instagram_salmon.png 1 https://www.locosxchiloe.cl/
+/vendor/phpunit/phpunit/LICENSE 2 -
+/wp-1ogin_bak.php 1 -
+/staging/wp-includes/wlwmanifest.xml 1 -
+/new/wp-includes/wlwmanifest.xml 1 -
+/new/ 4 -
+/assets/css/colors/default.css 11 https://locosxchiloe.cl/site/login
+/ads.txt 1 -
+//assets/images/wp_lg.png 2 https://www.locosxchiloe.cl/
+/assets/images/product/18/principal.jpg 1 https://www.locosxchiloe.cl/
+/oldsite/wp-includes/wlwmanifest.xml 1 -
+/new-site/ 4 -
+/bak/ 4 -
+/old-wp/ 4 -
+/old/ 4 -
+/wp-login.php 16 http://locosxchiloe.cl/wp-login.php
+/test/ 4 -
+/2018/wp-includes/wlwmanifest.xml 1 -
+/assets/images/product/14/principal.jpg 1 https://www.locosxchiloe.cl/
+/main/ 4 -
+/assets/images/icons/wsp.png 1 https://www.locosxchiloe.cl/
+/home/ 4 -
+/install/ 4 -
+/blog/ 4 -
+/plugins/system/debug/debug.xml 2 -
+/assets/fonts/themify.woff 1 https://www.locosxchiloe.cl/
+/backup/ 4 -
+/assets/4d65e280/jquery.js 1 https://www.locosxchiloe.cl/
+/demo/wp-includes/wlwmanifest.xml 1 -
+/.env 2 -
+/dev/wp-includes/wlwmanifest.xml 1 -
+/wp2/wp-includes/wlwmanifest.xml 1 -
+/1/wp-includes/wlwmanifest.xml 1 -
+/administrator/language/en-GB/install.xml 2 -
+/www/wp-includes/wlwmanifest.xml 1 -
+/2019/ 4 -
+/cms/ 4 -
+/wordpress/ 4 -
+/backup/wp-includes/wlwmanifest.xml 1 -
+/assets/js/jquery.dd.min.js 1 https://www.locosxchiloe.cl/
+/r=site/productos 3 -
+/web/wp-includes/wlwmanifest.xml 1 -
+/accesson.php 1 -
+/js/header-rollup-554.js 2 -
+/temp/ 4 -
+/images/editor/separator.gif 2 -
+/v2/wp-includes/wlwmanifest.xml 1 -
+/beta/wp-includes/wlwmanifest.xml 1 -
+/site/wp-includes/wlwmanifest.xml 1 -
+/assets/images/product/12/principal.jpg 1 https://www.locosxchiloe.cl/
+/old/wp-includes/wlwmanifest.xml 1 -
+/assets/fonts/themify.svg 1 https://www.locosxchiloe.cl/
+/site/assets/images/logo.png 4 https://locosxchiloe.cl/site/slider
+/v1/wp-includes/wlwmanifest.xml 1 -
+/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 -
+/administrator/help/en-GB/toc.json 2 -
+/dev/ 4 -
+/tmp/ 4 -
+/assets/images/jaibas.png 1 https://www.locosxchiloe.cl/
+/demo/ 4 -
+/website/wp-includes/wlwmanifest.xml 1 -
+/assets/images/instagram_salmon-1.png 1 https://www.locosxchiloe.cl/
+/assets/fonts/themify.ttf 1 https://www.locosxchiloe.cl/
+/assets/css/ajax-loader.gif 6 https://locosxchiloe.cl/assets/css/slick-theme.css
+/wp2/ 4 -
+/cms/wp-includes/wlwmanifest.xml 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 97
+201.239.103.56 50 500 53554122 20200916185659
+190.100.58.217 32 113 16052612 20200928193451
+190.161.28.3 31 184 27105187 20200907182939
+51.222.43.127 19 19 3436705 20200908175336
+201.214.86.229 14 95 9344749 20200901211849
+181.42.23.1 12 105 15427748 20200903113259
+181.43.116.241 9 90 14308221 20200913221337
+201.239.99.10 9 90 8975058 20200903142222
+181.72.152.246 7 86 8476912 20200905164716
+201.241.0.23 7 86 8430164 20200915103239
+190.163.2.94 7 89 10881140 20200905175459
+200.83.181.61 7 88 8934154 20200919164114
+163.247.90.55 6 76 7239299 20200907125801
+181.42.13.164 6 19 1786630 20200911150733
+191.115.48.32 6 97 9397321 20200926111226
+51.77.129.159 5 78 7657509 20200908175406
+3.14.135.141 5 84 8324771 20200911010336
+217.160.241.170 5 5 400105 20200913144433
+181.43.241.172 5 67 4299139 20200901212726
+51.91.218.19 5 81 8028657 20200908175420
+87.106.204.37 5 5 400105 20200914152637
+181.203.93.87 5 64 6469259 20200913150019
+186.11.62.55 5 61 3593898 20200919154714
+138.246.253.15 4 4 0 20200925172618
+84.17.48.134 3 3 120004 20200928113110
+186.35.9.198 0 1 94396 
+181.203.9.142 0 1 79750 
+190.21.201.194 0 1 93541 
+186.156.175.109 0 1 81628 
+200.119.233.38 0 1 152798 
+138.197.151.177 1 1 0 20200916124134
+181.42.19.250 0 1 79192 
+190.161.145.120 0 1 99682 
+216.155.68.39 0 1 91768 
+181.42.13.178 0 1 81306 
+186.107.93.121 0 4 2559266 
+181.226.59.202 0 1 112601 
+181.160.203.59 0 1 81306 
+200.83.183.134 3 75 7431978 20200913123937
+54.212.77.251 1 1 80021 20200924081608
+181.42.29.206 0 1 112601 
+51.158.154.104 1 1 80021 20200902221011
+190.217.137.118 0 4 316768 
+35.232.77.33 3 3 240063 20200903055842
+190.164.253.124 0 1 93541 
+190.47.202.157 0 1 87195 
+190.215.138.30 0 1 114947 
+159.89.115.29 1 1 0 20200916124136
+34.68.189.98 3 3 240207 20200903131251
+181.226.163.168 1 1 80069 20200901215928
+159.203.44.43 1 1 0 20200916124141
+138.197.158.232 1 1 0 20200916124137
+186.113.22.82 0 1 87195 
+181.203.103.202 0 1 94396 
+191.125.8.120 0 1 79192 
+74.125.150.14 1 1 80021 20200910155857
+201.189.76.232 0 1 96148 
+51.159.34.92 1 1 80069 20200902222036
+190.162.161.228 0 1 99682 
+190.46.171.8 0 1 119468 
+200.104.59.220 0 1 152798 
+34.244.250.123 1 1 80021 20200917224410
+199.244.88.132 2 2 160042 20200919091249
+167.172.47.240 3 3 240063 20200929030801 20200929030759 /index.php
+186.29.183.69 0 1 114884 
+44.234.109.51 1 1 80021 20200905071715
+181.42.40.46 0 1 98467 
+186.155.186.17 0 1 114884 
+201.186.200.82 0 1 79192 
+34.66.87.205 3 3 240063 20200913103355
+186.22.238.229 0 1 81306 
+181.163.102.227 0 1 99682 
+181.73.254.235 0 2 158384 
+190.160.255.63 0 1 114947 
+186.105.28.213 0 1 98467 
+46.45.185.189 1 1 80021 20200907054308
+181.176.127.95 1 2 141649 20200908164830
+186.11.53.143 2 7 1325944 20200903180906
+200.120.118.247 0 1 1972309 
+34.122.32.203 3 3 240207 20200922204303
+190.250.126.22 0 1 115114 
+190.47.137.96 0 1 79192 
+186.11.94.167 0 1 96148 
+181.203.67.16 0 1 114884 
+186.106.226.200 0 1 75404 
+190.163.127.46 0 1 98467 
+186.67.71.39 0 1 79750 
+191.116.166.211 0 1 99682 
+190.101.24.155 0 1 81306 
+45.232.93.9 0 1 94396 
+104.248.236.204 1 1 80021 20200920185830
+190.5.36.59 1 44 1922621 20200911010140
+37.120.145.93 3 3 120004 20200920235804
+64.225.4.7 1 1 80021 20200903032319
+54.201.53.19 1 1 80021 20200926151830
+18.197.193.89 1 1 80021 20200911010444
+190.164.204.45 0 1 99682 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 27
+20200901 56 459 43472351 4
+20200902 4 7 606927 4
+20200903 53 331 44863921 9
+20200904 2 5 430968 2
+20200905 15 177 19519701 3
+20200906 0 6 483155 0
+20200907 13 141 16081992 3
+20200908 30 182 19473800 4
+20200909 0 4 386118 0
+20200910 9 124 15035849 3
+20200911 13 150 14201236 4
+20200912 1 3 276274 1
+20200913 24 236 28769605 5
+20200914 5 8 654637 1
+20200915 7 87 8511470 1
+20200916 11 92 9496809 5
+20200917 2 3 171789 2
+20200919 13 151 12701614 3
+20200920 4 4 200025 2
+20200922 3 7 2799473 2
+20200923 0 1 79192 0
+20200924 1 3 276274 1
+20200925 1 2 79192 1
+20200926 7 100 9675491 2
+20200927 16 97 13454337 2
+20200928 19 22 2992107 2
+20200929 3 3 240063 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+2mn-5mn 2
+15mn-30mn 3
+0s-30s 51
+5mn-15mn 2
+30s-2mn 7
+1h+ 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 28
+/ 84 6084721 58 35
+/assets/fonts/Linearicons.woff 27 10922040 0 5
+/assets/fonts/ionicons.ttf 27 5089716 0 0
+/assets/fonts/themify.woff 26 1458808 0 0
+/site/product 20 693410 4 3
+/assets/fonts/Simple-Line-Icons.woff2 19 326952 0 4
+/assets/fonts/fa-brands-400.woff2 18 1298160 0 2
+/site/login 13 52913 0 0
+/site/productos 11 988497 2 1
+/site/contact 7 139903 0 2
+/site/gestion 7 278665 2 2
+/site/promociones 7 233302 0 2
+/site/nosotros 6 115293 0 0
+/assets/54c5a5a4/css/bootstrap.min.css.map 6 3242604 0 2
+/assets/fonts/fa-solid-900.woff2 5 371580 0 0
+/site/slider 5 113673 0 0
+/site/filter 4 193399 0 2
+/site/ 4 320180 0 4
+/site/terminos 3 8077683 1 0
+/site/cart 3 194671 0 0
+/site/cbuy 2 51883 0 1
+/site/register 2 48400 0 1
+/assets/fonts/fa-solid-900.woff 1 96248 0 0
+/site/variantes 1 29749 0 0
+/sitemap.xml 1 6629 0 0
+/site/estadisticas 1 34480 0 0
+/index.php 1 80021 0 0
+/assets/fonts/Linearicons.ttf 1 404444 0 0
+END_SIDER
