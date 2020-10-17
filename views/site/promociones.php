@@ -4,6 +4,9 @@ use yii\helpers\Html;
 use yii\helpers\Url;
 use app\models\Product;
 use app\models\Categorias;
+use yii\bootstrap\ActiveForm;
+
+
 $this->title = 'Promociones | LocosxChiloe';
 
 ?>
@@ -50,6 +53,23 @@ $this->title = 'Promociones | LocosxChiloe';
                                 -->
                     </div>
                 </div>
+                <!-- Large modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button>
+
+                <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content" style="background-image: url('/assets/images/fondo-productos-destacados.png'); height: 700px; background-repeat: round;">
+
+                            <!-- Aquí va la sección del modal -->
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
                 <div class="col-md-9 col-xs-12">
                     <div class="row align-items-center mb-4 pb-1">
                         <div class="col-12">
@@ -88,7 +108,7 @@ $this->title = 'Promociones | LocosxChiloe';
                                         <div class="product_action_box">
                                             <ul class="list_none pr_action_btn">
                                                 <?php if ($row->stock > 0) : ?>
-                                                    <li class="add-to-cart"><a href="<?= Url::toRoute(["site/addtocart","product"=>$row->id]) ?>"><i class="icon-basket-loaded"></i>Agregar Al Carrito</a></li>
+                                                    <li class="add-to-cart"><a href="<?= Url::toRoute(["site/addtocart", "product" => $row->id]) ?>"><i class="icon-basket-loaded"></i>Agregar Al Carrito</a></li>
                                                 <?php endif; ?>
                                                 <li><a href="<?= Url::toRoute(["site/product"]) ?>?prdctid=<?= $row->id ?>"><i class="icon-magnifier-add"></i></a></li>
                                             </ul>
@@ -110,7 +130,7 @@ $this->title = 'Promociones | LocosxChiloe';
                                         <div class="list_product_action_box">
                                             <ul class="list_none pr_action_btn">
                                                 <?php if ($row->stock > 0) : ?>
-                                                    <li class="add-to-cart"><a href="<?= Url::toRoute(["site/addtocart","product"=>$row->id]) ?>"><i class="icon-basket-loaded"></i> Agregar Al Carrito</a></li>
+                                                    <li class="add-to-cart"><a href="<?= Url::toRoute(["site/addtocart", "product" => $row->id]) ?>"><i class="icon-basket-loaded"></i> Agregar Al Carrito</a></li>
                                                 <?php else : ?>
                                                     <li class="add-to-cart"><a><i class="icon-basket-loaded"></i> Agotado</a></li>
                                                 <?php endif; ?>

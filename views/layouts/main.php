@@ -112,7 +112,7 @@ AppAsset::register($this);
                         </div>
                     </div>
 
-                    <!--- 
+                    <!-- - 
                     <div class="col-md-6" >
                         <div class="text-center text-md-right">
                             <ul class="header_list">
@@ -130,7 +130,7 @@ AppAsset::register($this);
                             </ul>
                         </div>
                     </div>
-                    --->
+                    - -->
 
                 </div>
             </div>
@@ -375,9 +375,7 @@ AppAsset::register($this);
         </div>
         <img class="paypal" src="<?= $url ?>/assets/images/wp_lg.png" alt="logo">
     </footer>
-    <div class="creadores">
-        <span class="text-white"> © 2020 LocosxChiloé. Desarrollado por <a href="https://astucia.cl/" class="text-primary">Astucia Digital</a></span>
-    </div>
+
     <!-- END FOOTER -->
     <a href="#" class="scrollup" style="display: none;"><i class="ion-ios-arrow-up"></i></a>
     <?php $this->registerJsFile('@web/assets/js/jquery-ui.js', ['depends' => [\yii\web\JqueryAsset::className()]]); ?>
