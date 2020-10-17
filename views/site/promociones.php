@@ -4,8 +4,6 @@ use yii\helpers\Html;
 use yii\helpers\Url;
 use app\models\Product;
 use app\models\Categorias;
-use yii\bootstrap\ActiveForm;
-
 
 $this->title = 'Promociones | LocosxChiloe';
 
@@ -61,8 +59,6 @@ $this->title = 'Promociones | LocosxChiloe';
                         <div class="modal-content" style="background-image: url('/assets/images/fondo-productos-destacados.png'); height: 700px; background-repeat: round;">
 
                             <!-- Aquí va la sección del modal -->
-
-
 
                         </div>
                     </div>
