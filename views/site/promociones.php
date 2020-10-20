@@ -52,13 +52,48 @@ $this->title = 'Promociones | LocosxChiloe';
                     </div>
                 </div>
                 <!-- Large modal -->
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".iniciar-sesion">Iniciar Sesión</button>
 
-                <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal fade iniciar-sesion" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
-                        <div class="modal-content" style="background-image: url('/assets/images/fondo-productos-destacados.png'); height: 700px; background-repeat: round;">
+                        <div class="modal-content bg">
 
-                            <!-- Aquí va la sección del modal -->
+                            <!-- Aquí va la sección del modal: Registro -->
+                            <div class="">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="">
+                                <div class="text-center">
+                                    <img class="dimage" src="<?= $url ?>/assets/images/logotipo-inicio-sesion-blanco.svg" alt="">
+                                </div>
+                                <div class="heading_s1 text-center">
+                                    <h4 class="colwhite">INICIO DE SESIÓN</h4>
+                                </div>
+                                <div class="">
+                                    <div class="">
+                                        <span>Correo Electrónico</span>
+                                        <input type="text" required class="form-control rinput" name="Ingrese su correo electrónico" placeholder="Ingresa su Nombre" required>
+
+
+                                        <div class="">
+                                            <span>Contraseña</span>
+                                            <input type="text" required class="form-control rinput" name="Ingrese su contraseña" placeholder="Ingresa sus Apellidos" required>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="form-group ">
+                                        <label class="form-check-label label_info" for="terminos"><span class="colwhite">¿NO TIENES CUENTA? <a class="text-orange" target="_blank" href="/">REGISTRATE AHORA</a></span></label>
+                                </div>
+                                <div class="form-group ">
+                                    <button id="registrar" class="btn btn-orange  btn-block text-center">INICIAR SESIÓN</button>
+                                    <button type="button" class="btn ml btn-secondary btn-block text-center" data-dismiss="modal">Cerrar</button>
+                                </div>
+
+                            </div>
 
                         </div>
                     </div>
@@ -144,3 +179,44 @@ $this->title = 'Promociones | LocosxChiloe';
         </div>
     </div>
 </div>
+
+
+<?php $this->registerJsFile('@web/assets/js/rut.js', ['depends' => [\yii\web\JqueryAsset::className()]]); ?>
+
+
+<style>
+    .bg {
+        background-image: url('/assets/images/fondo-productos-destacados.png');
+
+        background-repeat: round;
+        border: 10px solid white;
+        border-radius: 30px;
+        padding: 30px;
+    }
+
+    .colwhite {
+        color: white;
+    }
+
+    span {
+        color: white;
+        padding: 10px;
+    }
+
+    .dimage {
+        max-width: 50%;
+        padding-bottom: 40px;
+    }
+
+    .rinput {
+        border-radius: 30px;
+    }
+
+    .ml {
+        margin-left: 0px !important;
+    }
+
+    .pad15 {
+        padding: 15px;
+    }
+</style>

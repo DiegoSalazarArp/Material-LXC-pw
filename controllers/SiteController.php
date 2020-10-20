@@ -582,7 +582,7 @@ class SiteController extends Controller
                         return $this->redirect(["site/pay", "total" => Yii::$app->request->post('total'), "id" => $v->id, "l" => $l->id]);
                     }
 
-                    return $this->redirect(["site/register", "al" => "rs"]);
+                    return $this->redirect(["site/", "al" => "rs"]);
                 }
             } else {
                 //registrar venta

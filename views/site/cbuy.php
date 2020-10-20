@@ -12,7 +12,7 @@ use app\models\Product;
         <div class="row">
             <div class="col-md-6">
                 <div class="heading_s1">
-                    <h4>Rellene los campos con sus datos</h4>
+                    <h4>RELLENE LOS CAMPOS CON SUS DATOS</h4>
                 </div>
                 <?= Html::beginForm(Url::toRoute("site/cpay"), "POST", ['id' => 'pay']) ?>
                 <div class="form-group">
@@ -103,7 +103,7 @@ use app\models\Product;
                     <input class="form-control" required  type="text" id="fecha" name="fecha" placeholder="Fecha de Entrega *">
                 </div>
                 <div class="heading_s1">
-                    <h4>información Adicional</h4>
+                    <h4>INFORMACIÓN ADICIONAL</h4>
                 </div>
                 <div class="form-group mb-0">
                     <textarea rows="5" class="form-control" name="informacion" placeholder="Algún comentario para la entrega?"></textarea>
@@ -116,7 +116,7 @@ use app\models\Product;
             <div class="col-md-6">
                 <div class="order_review">
                     <div class="heading_s1">
-                        <h4>Tu Pedido</h4>
+                        <h4>TU PEDIDO</h4>
                     </div>
                     <div class="table-responsive order_table">
                         <table class="table">
@@ -155,7 +155,7 @@ use app\models\Product;
                         </table>
                     </div>
 
-                    <button id="finalizar" form="pay" class="btn btn-fill-out btn-block">Finalizar Pedido</button>
+                    <button id="finalizar" form="pay" class="btn btn-fill-out btn-block bb">FINALIZAR PEDIDO</button>
                 </div>
             </div>
         </div>
@@ -163,3 +163,12 @@ use app\models\Product;
 </div>
 
 <?php $this->registerJsFile('@web/assets/js/rut.js', ['depends' => [\yii\web\JqueryAsset::className()]]); ?>
+
+
+<style> 
+.bb{
+    border: 1px solid black !important;
+}
+
+
+</style>

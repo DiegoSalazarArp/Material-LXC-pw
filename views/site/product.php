@@ -277,7 +277,7 @@ if (isset($_SERVER['HTTPS'])) {
             </div>
         </div>
     </div>
-    <div class="section " style="background-image: url('/assets/images/fondo-sus.png'); padding:85px 0;">
+    <div class="section " style="background-image: url('/assets/images/fondo-sus.png'); padding:85px 0; background-repeat: round;">
         <div class="container">
             <div class="row align-items-center text-center">
                 <div class="col-md-12">

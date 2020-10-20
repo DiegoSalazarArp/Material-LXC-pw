@@ -80,6 +80,179 @@ AppAsset::register($this);
 </head>
 
 <body>
+
+
+
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div style="background-image:url( <?= $url ?>assets/images/fondo-suscripcion-1.png); background-repeat: round;" class="modal-content bg" >
+
+                <div class="">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="">
+                    <div class="text-center">
+                        <img class="dimage" src="<?= $url ?>/assets/images/logotipo-inicio-sesion-blanco.svg" alt="">
+                    </div>
+                    <?= Html::beginForm(Url::toRoute("site/registrar"), "POST", ['id' => 'form-registrar']) ?>
+                    <div class="heading_s1 text-center">
+                        <h4 class="colwhite">FORMULARIO DE REGISTRO</h4>
+                    </div>
+                    <div class="row">
+
+                        <div class="">
+
+                            <div class="form-row">
+                                <div class="col">
+                                    <span>Nombres</span>
+                                    <input type="text" required class="form-control rinput" name="nombre" placeholder="Ingresa su Nombre" required>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="col">
+                                        <span>Apellidos</span>
+                                        <input type="text" required class="form-control rinput" name="apellidos" placeholder="Ingresa sus Apellidos" required>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="form-row">
+                                <div class="col">
+                                    <span>RUT</span>
+                                    <input type="text" required class="form-control rinput" id="rut" oninput="checkRut(this)" name="rut" placeholder="Ingrese su RUT" required>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="col">
+                                        <span>Correo Electrónico</span>
+                                        <input class="form-control rinput" required type="email" name="email" placeholder="Ingrese su Correo Electrónico">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="form-row">
+                                <div class="col">
+                                    <span>Comuna</span>
+                                    <div class="custom_select">
+                                        <select class="form-control rinput" required name="comuna" id="comuna">
+                                            <option value="#">Seleccione comuna</option>
+                                            <option value="Cerrillos">Cerrillos</option>
+                                            <option value="Cerro Navia">Cerro Navia</option>
+                                            <option value="Conchalí">Conchalí</option>
+                                            <option value="El Bosque">El Bosque</option>
+                                            <option value="Estación Central">Estación Central</option>
+                                            <option value="Huechuraba">Huechuraba</option>
+                                            <option value="Independencia">Independencia</option>
+                                            <option value="La Cisterna">La Cisterna</option>
+                                            <option value="La Florida">La Florida</option>
+                                            <option value="La Granja">La Granja</option>
+                                            <option value="La Pintana">La Pintana</option>
+                                            <option value="La Reina">La Reina</option>
+                                            <option value="Las Condes">Las Condes</option>
+                                            <option value="Lo Barnechea">Lo Barnechea</option>
+                                            <option value="Lo Espejo">Lo Espejo</option>
+                                            <option value="Lo Prado">Lo Prado</option>
+                                            <option value="Macul">Macul</option>
+                                            <option value="Maipú">Maipú</option>
+                                            <option value="Ñuñoa">Ñuñoa</option>
+                                            <option value="Pedro Aguirre Cerda">Pedro Aguirre Cerda</option>
+                                            <option value="Peñalolén">Peñalolén</option>
+                                            <option value="Providencia">Providencia</option>
+                                            <option value="Pudahuel">Pudahuel</option>
+                                            <option value="Quilicura">Quilicura</option>
+                                            <option value="Quinta Normal">Quinta Normal</option>
+                                            <option value="Recoleta">Recoleta</option>
+                                            <option value="Renca">Renca</option>
+                                            <option value="San Joaquín">San Joaquín</option>
+                                            <option value="San Miguel">San Miguel</option>
+                                            <option value="San Ramón">San Ramón</option>
+                                            <option value="Vitacura">Vitacura</option>
+                                            <option value="Puente Alto">Puente Alto</option>
+                                            <option value="Pirque">Pirque</option>
+                                            <option value="San José de Maipo">San José de Maipo</option>
+                                            <option value="Colina">Colina</option>
+                                            <option value="Lampa">Lampa</option>
+                                            <option value="TilVl">TilVl</option>
+                                            <option value="San Bernardo">San Bernardo</option>
+                                            <option value="Buin">Buin</option>
+                                            <option value="Calera de Tango">Calera de Tango</option>
+                                            <option value="Paine">Paine</option>
+                                            <option value="Melipilla">Melipilla</option>
+                                            <option value="Alhué">Alhué</option>
+                                            <option value="Curacaví">Curacaví</option>
+                                            <option value="María Pinto">María Pinto</option>
+                                            <option value="San Pedro">San Pedro</option>
+                                            <option value="Talagante">Talagante</option>
+                                            <option value="El Monte">El Monte</option>
+                                            <option value="Isla de Maipo">Isla de Maipo</option>
+                                            <option value="Padre Hurtado">Padre Hurtado</option>
+                                            <option value="Peñaflor">Peñaflor</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="col">
+                                        <span>Calle principal</span>
+                                        <input type="text" class="form-control rinput" name="calle_principal" required="asdasdas" placeholder="Ingrese su Dirección">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col">
+                                    <span>Numeración</span>
+                                    <input class="form-control rinput" required type="text" name="numeracion" placeholder="Ingrese su Numeración">
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="col">
+                                        <span>Teléfono</span>
+                                        <input class="form-control rinput" required type="text" name="telefono" placeholder="Ingrese su Teléfono *">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col">
+                                    <span>Contraseña</span>
+                                    <input class="form-control rinput" required type="password" placeholder="Ingrese su Contraseña" id="password" name="password">
+                                </div>
+                                <div class="form-row">
+                                    <div class="col">
+                                        <span>Repetir Contraseña</span>
+                                        <input class="form-control rinput" required type="password" placeholder="Repita su Contraseña" id="password2" name="password2">
+                                        <b id="coincidencia" class="text-danger">ESTAS CONTRASEÑAS NO COINCIDEN</b>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="form-group ">
+                        <div class="custome-checkbox">
+                            <input class="form-check-input" type="checkbox" name="terminos" required id="terminos">
+                            <label class="form-check-label label_info" for="terminos"><span class="colwhite">ACEPTO LOS <a class="text-orange" target="_blank" href="index.php?r=site/terminos">TERMINOS Y CONDICIONES</a></span></label>
+                        </div>
+                    </div>
+                    <div class="form-group ">
+                        <button id="registrar" class="btn btn-orange  btn-block text-center">REGISTRARSE</button>
+                        <button type="button" class="btn ml btn-secondary btn-block text-center" data-dismiss="modal">Cerrar</button>
+                    </div>
+                    <?= Html::endForm() ?>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TB6KTFF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
@@ -93,10 +266,10 @@ AppAsset::register($this);
     <header class="header_wrap fixed-top header_with_topbar">
         <div class="top-header">
             <div>
-            <img src="<?= $url ?>/assets/images/tejas.svg" />
+                <img src="<?= $url ?>/assets/images/tejas.svg" />
             </div>
             <div class="container">
-                <div class="row align-items-center" style=" position: absolute;top: 25%;left: 50%;transform: translate(-50%, -50%);">
+                <div class="row align-items-center">
                     <div class="col-md-6">
                         <div class="d-flex bd-highlight align-items-center justify-content-center justify-content-md-start">
                             <div class=" mr-2">
@@ -112,8 +285,8 @@ AppAsset::register($this);
                         </div>
                     </div>
 
-                    <!-- - 
-                    <div class="col-md-6" >
+
+                    <div class="col-md-6">
                         <div class="text-center text-md-right">
                             <ul class="header_list">
                                 <?php if (!Yii::$app->user->isGuest) : ?>
@@ -122,15 +295,17 @@ AppAsset::register($this);
                                 <?php }
                                 endif; ?>
                                 <?php if (Yii::$app->user->isGuest) : ?>
+                                    <li><a href="" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="ti-pencil"></i><span>Registrarse</span></a></li>
+
                                     <li><a href="<?= Url::toRoute(['site/login']) ?>"><i class="ti-user"></i><span>Iniciar Sesión</span></a></li>
                                 <?php endif; ?>
                                 <?php if (!Yii::$app->user->isGuest) : ?>
-                                    <li><?= '<a>' . Html::beginForm(['/site/logout'], 'post') . Html::submitButton(' <i class="fa fa-power-off"></i>Cerrar Sesión')   . Html::endForm() . '</a>' ?></li>
+                                    <li><a class="bcs"><?= Html::beginForm(['/site/logout'], 'post') . Html::submitButton(' <i class="fa fa-power-off"></i>Cerrar Sesión')   . Html::endForm() . '</a>' ?></li>
                                 <?php endif; ?>
                             </ul>
                         </div>
                     </div>
-                    - -->
+
 
                 </div>
             </div>
@@ -186,7 +361,17 @@ AppAsset::register($this);
 
                                     <div class="cart_footer">
                                         <p class="cart_total"><strong>Inicia sesión para usar el carrito</strong></p>
-                                        <p class="cart_buttons"><a href="<?= Url::toRoute(['site/login']) ?>" class="btn btn-fill-line btn-radius view-cart">Ingresar</a><a href="<?= Url::toRoute(['site/register']) ?>" class="btn btn-fill-out btn-radius checkout">Registrarse</a></p>
+                                        <p class="cart_buttons"><a href="<?= Url::toRoute(['site/login']) ?>" class="btn btn-fill-line btn-radius view-cart">Ingresar</a>
+
+
+                                            <!-- <a href="<?= Url::toRoute(['site/register']) ?>" class="btn btn-fill-out btn-radius checkout">Registrarse</a> -->
+
+                                            <button type="button" class="btn btn-fill-line btn-radius view-cart" data-toggle="modal" data-target=".bd-example-modal-lg">Registrarse</button>
+
+
+                                        </p>
+
+
                                     </div>
                                 </div>
                             </li>
@@ -313,13 +498,13 @@ AppAsset::register($this);
 
                     </div>
                     <div class=" text-center col-md-4 flex-row">
-                    <h6> <a class="nav-link nav_item" href="<?= Url::toRoute(['site/terminos']) ?>">TERMINOS Y CONDICIONES</a></h6>
+                        <h6> <a class="nav-link nav_item" href="<?= Url::toRoute(['site/terminos']) ?>">TERMINOS Y CONDICIONES</a></h6>
 
                     </div>
 
                     <div class="col-md-4 text-right">
                         <span class="text-uppercase">Todos los derechos reservados a <span style="color:rgb(222, 113, 15);">Locosxchiloe</span></span>
-                        
+
                     </div>
                 </div>
             </div>
@@ -421,3 +606,46 @@ AppAsset::register($this);
 
 </html>
 <?php $this->endPage() ?>
+
+
+<style>
+    .bg {
+        background-image: url('/assets/images/fondo-suscripcion-1.png');
+
+        background-repeat: round;
+        border: 10px solid white;
+        border-radius: 30px;
+        padding: 30px;
+    }
+
+    .colwhite {
+        color: white;
+    }
+
+    span {
+        padding: 10px;
+    }
+
+    .dimage {
+        max-width: 50%;
+        padding-bottom: 40px;
+    }
+
+    .rinput {
+        border-radius: 30px;
+    }
+
+    .ml {
+        margin-left: 0px !important;
+    }
+
+    .pad15 {
+        padding: 15px;
+    }
+
+    .bcs {
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+    }
+</style>

@@ -28,9 +28,9 @@ $this->title = 'Pescados y Mariscos Congelados - Salmón Premium | LocosxChiloé
                                 <div class="row">
                                     <div class="col-lg-6 col-md-8 col-sm-9 col-10">
 
-                                        <div style="width: 43em;" class="banner_content2">
+                                        <div  class="banner_content2">
                                             <!-- texto -->
-                                            <h6 class="mb-2 mb-sm-3 staggered-animation text-uppercase text-white" data-animation="fadeInDown" data-animation-delay="0.2s"><?= $row->texto1 ?></h6>
+                                            <!-- <h6 class="mb-2 mb-sm-3 staggered-animation text-uppercase text-white" data-animation="fadeInDown" data-animation-delay="0.2s"><?= $row->texto1 ?></h6> -->
                                             <h2 class="staggered-animation text-white" data-animation="fadeInDown" data-animation-delay="0.3s"><?= $row->texto2 ?></h2>
                                             <p class="staggered-animation text-white" data-animation="fadeInUp" data-animation-delay="0.4s" style="font-size: 20px;"><?= $row->texto3 ?></p>
                                         </div>
@@ -97,7 +97,7 @@ $this->title = 'Pescados y Mariscos Congelados - Salmón Premium | LocosxChiloé
                     <div class="small_divider clearfix"></div>
                 </div>
                 <div class="col-md-3 text-center">
-                    <img class="w-50" src="assets/images/estrellas-naranjas.svg">
+                    <img class="w-50 pdb" src="assets/images/estrellas-naranjas.svg">
 
                 </div>
             </div>
@@ -298,7 +298,7 @@ $this->title = 'Pescados y Mariscos Congelados - Salmón Premium | LocosxChiloé
 </div> -->
     <!-- END SECTION INSTAGRAM IMAGE -->
 
-    <div class="section " style="background-image: url('/assets/images/fondo-sus.png'); padding:85px 0;">
+    <div class="section " style="background-image: url('/assets/images/fondo-sus.png'); padding:85px 0; background-repeat: round;">
         <div class="container">
             <div class="row align-items-center text-center">
                 <div class="col-md-12">
@@ -337,6 +337,9 @@ $this->title = 'Pescados y Mariscos Congelados - Salmón Premium | LocosxChiloé
 
     .comprar {
         border: 1px solid black;
+    }
+    .pdb{
+        padding-bottom: 10px;
     }
 </style>
 <!-- END MAIN CONTENT -->
