@@ -173,24 +173,9 @@ AppAsset::register($this);
                                             <option value="San Ramón">San Ramón</option>
                                             <option value="Vitacura">Vitacura</option>
                                             <option value="Puente Alto">Puente Alto</option>
-                                            <option value="Pirque">Pirque</option>
-                                            <option value="San José de Maipo">San José de Maipo</option>
-                                            <option value="Colina">Colina</option>
-                                            <option value="Lampa">Lampa</option>
-                                            <option value="TilVl">TilVl</option>
                                             <option value="San Bernardo">San Bernardo</option>
-                                            <option value="Buin">Buin</option>
                                             <option value="Calera de Tango">Calera de Tango</option>
-                                            <option value="Paine">Paine</option>
-                                            <option value="Melipilla">Melipilla</option>
-                                            <option value="Alhué">Alhué</option>
-                                            <option value="Curacaví">Curacaví</option>
-                                            <option value="María Pinto">María Pinto</option>
-                                            <option value="San Pedro">San Pedro</option>
                                             <option value="Talagante">Talagante</option>
-                                            <option value="El Monte">El Monte</option>
-                                            <option value="Isla de Maipo">Isla de Maipo</option>
-                                            <option value="Padre Hurtado">Padre Hurtado</option>
                                             <option value="Peñaflor">Peñaflor</option>
                                         </select>
                                     </div>
@@ -264,9 +249,12 @@ AppAsset::register($this);
     <?php $this->beginBody() ?>
     <!-- START HEADER -->
     <header class="header_wrap fixed-top header_with_topbar">
-        <div class="top-header">
+        <div class="top-header" >
             <div>
-                <img src="<?= $url ?>/assets/images/tejas.svg" />
+            <img src="<?= $url ?>/assets/images/tejas.svg" />
+                <!-- 
+            
+            style="background-image: url('/assets/images/tejas.svg')"-->
             </div>
             <div class="container">
                 <div class="row align-items-center">

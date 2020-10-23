@@ -10,7 +10,7 @@ $this->title = 'Pescados y Mariscos Congelados - Salmón Premium | LocosxChiloé
 ?>
 
 <!-- START SECTION BANNER -->
-<div class="banner_section slide_wrap shop_banner_slider staggered-animation-wrap divcarrousel">
+<div class=" banner_section slide_wrap shop_banner_slider staggered-animation-wrap">
     <div id="carouselExampleControls" class="carousel slide carousel-fade light_arrow" data-loop="true" data-autoplay="true" data-ride="carousel">
         <div class="carousel-inner">
             <?php $j = 0; ?>
@@ -26,13 +26,13 @@ $this->title = 'Pescados y Mariscos Congelados - Salmón Premium | LocosxChiloé
                         <div class="banner_slide_content banner_content_inner">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-lg-6 col-md-8 col-sm-9 col-10">
+                                    <div class="col-lg col-md col-sm col">
 
-                                        <div  class="banner_content2">
+                                        <div class="banner_content2">
                                             <!-- texto -->
                                             <!-- <h6 class="mb-2 mb-sm-3 staggered-animation text-uppercase text-white" data-animation="fadeInDown" data-animation-delay="0.2s"><?= $row->texto1 ?></h6> -->
-                                            <h2 class="staggered-animation text-white" data-animation="fadeInDown" data-animation-delay="0.3s"><?= $row->texto2 ?></h2>
-                                            <p class="staggered-animation text-white" data-animation="fadeInUp" data-animation-delay="0.4s" style="font-size: 20px;"><?= $row->texto3 ?></p>
+                                            <h2 class=" staggered-animation text-center text-uppercase text-white" data-animation="fadeInDown" data-animation-delay="0.3s"><?= $row->texto2 ?></h2>
+                                            <p class="staggered-animation text-center mbf" data-animation="fadeInUp" data-animation-delay="0.4s" style="font-size: 50px;"><?= $row->texto3 ?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -67,10 +67,10 @@ $this->title = 'Pescados y Mariscos Congelados - Salmón Premium | LocosxChiloé
                     </div>
 
                     <div class="col-md-8" style="float:left; text-align:left; text-align:justify;">
-                        <h1 class="text-center">BIENVENIDO SOMOS LOCOSXCHILOE</h1>
+                        <h1 class="text-center">BIENVENIDO SOMOS <span style="color:rgb(222, 113, 15);">LOCOSXCHILOE</span></h1>
                         <br>
                         <div>
-                            <p>Sumergete y recorre un viaje junto a nosotros de las maravillas
+                            <p class="mont">Sumergete y recorre un viaje junto a nosotros de las maravillas
                                 que entrega nuestra isla. Somos LocosxChiloe, una empresa que te brinda los mejores
                                 productos al alcance de tu hogar, espero disfrutes tanto
                                 como nosotros de las maravillas que nos brinda Chiloé. </p>
@@ -338,8 +338,29 @@ $this->title = 'Pescados y Mariscos Congelados - Salmón Premium | LocosxChiloé
     .comprar {
         border: 1px solid black;
     }
-    .pdb{
+
+    .pdb {
         padding-bottom: 10px;
     }
+
+    @font-face {
+        font-family: MountainBridge;
+        /* font-family: Montserrat; */
+        src: url(/assets/fonts/MountainBridge.otf);
+        /* src: url(/assets/fonts/Montserrat/Montserrat-Regular.ttf); */
+    }
+
+    .mbf {
+        font-family: MountainBridge !important;
+        color: rgb(222, 113, 15);
+        line-height: 0.8;
+
+        /* text-shadow: 3px 3px 2px #000000; */
+    }
+
+    /* .mont{
+        font-family: Montserrat ;
+
+    } */
 </style>
 <!-- END MAIN CONTENT -->

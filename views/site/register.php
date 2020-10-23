@@ -2,6 +2,7 @@
 
 use yii\helpers\Url;
 use yii\helpers\Html;
+
 $this->title = 'Registrarse | LocosxChiloé';
 ?>
 <div class="container">
@@ -60,24 +61,9 @@ $this->title = 'Registrarse | LocosxChiloé';
                         <option value="San Ramón">San Ramón</option>
                         <option value="Vitacura">Vitacura</option>
                         <option value="Puente Alto">Puente Alto</option>
-                        <option value="Pirque">Pirque</option>
-                        <option value="San José de Maipo">San José de Maipo</option>
-                        <option value="Colina">Colina</option>
-                        <option value="Lampa">Lampa</option>
-                        <option value="TilVl">TilVl</option>
                         <option value="San Bernardo">San Bernardo</option>
-                        <option value="Buin">Buin</option>
                         <option value="Calera de Tango">Calera de Tango</option>
-                        <option value="Paine">Paine</option>
-                        <option value="Melipilla">Melipilla</option>
-                        <option value="Alhué">Alhué</option>
-                        <option value="Curacaví">Curacaví</option>
-                        <option value="María Pinto">María Pinto</option>
-                        <option value="San Pedro">San Pedro</option>
                         <option value="Talagante">Talagante</option>
-                        <option value="El Monte">El Monte</option>
-                        <option value="Isla de Maipo">Isla de Maipo</option>
-                        <option value="Padre Hurtado">Padre Hurtado</option>
                         <option value="Peñaflor">Peñaflor</option>
                     </select>
                 </div>
@@ -115,7 +101,7 @@ $this->title = 'Registrarse | LocosxChiloé';
             <div class="form-group ">
                 <div class="custome-checkbox">
                     <input class="form-check-input" type="checkbox" name="terminos" required id="terminos">
-                    <label class="form-check-label label_info" for="terminos"><span>ACEPTO LOS <a class="text-orange" target="_blank"  href="index.php?r=site/terminos">TERMINOS Y CONDICIONES</a></span></label>
+                    <label class="form-check-label label_info" for="terminos"><span>ACEPTO LOS <a class="text-orange" target="_blank" href="index.php?r=site/terminos">TERMINOS Y CONDICIONES</a></span></label>
                 </div>
             </div>
         </div>
